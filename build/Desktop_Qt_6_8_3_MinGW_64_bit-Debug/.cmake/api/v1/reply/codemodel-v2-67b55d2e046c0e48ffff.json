@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-70084fab49918f326504.json",
+					"jsonFile" : "directory-.-Debug-71db279222b6bea550a2.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "FukingLogger_ST_win_mingw64_qt6_8::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FukingLogger_ST_win_mingw64_qt6_8-Debug-2f3c5f9f53e44536001e.json",
+					"jsonFile" : "target-FukingLogger_ST_win_mingw64_qt6_8-Debug-f6eab1b2f805f66f3099.json",
 					"name" : "FukingLogger_ST_win_mingw64_qt6_8",
 					"projectIndex" : 0
 				},

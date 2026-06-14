@@ -79,8 +79,8 @@ clean: CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen.dir/clean
 # Target rules for target CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir
 
 # All Build rule for target.
-CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/all: CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen.dir/all
 CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/all: CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen_timestamp_deps.dir/all
+CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/all: CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\build.make CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\build.make CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Admin\Documents\FukingLogger_ST_win_mingw64_qt6_8\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target FukingLogger_ST_win_mingw64_qt6_8"
