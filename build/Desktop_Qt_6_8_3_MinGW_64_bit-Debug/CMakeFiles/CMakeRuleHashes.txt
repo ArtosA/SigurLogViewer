@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+518ab66cbe5c7333fd31026d793c4b4a CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen
+4f10a517879ca59e11a91ed16af3b63b FukingLogger_ST_win_mingw64_qt6_8_autogen/timestamp
