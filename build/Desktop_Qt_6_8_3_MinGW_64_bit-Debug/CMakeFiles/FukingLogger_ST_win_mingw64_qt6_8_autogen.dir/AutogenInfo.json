@@ -1,20 +1,20 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Artor/Documents/GitHub/SigurLogViewer",
+	"BUILD_DIR" : "C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Admin/Documents/GitHub/SigurLogViewer",
 	"CMAKE_EXECUTABLE" : "C:/Qt/Tools/CMake_64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/Artor/Documents/GitHub/SigurLogViewer/CMakeLists.txt",
-		"C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qtcreator/cmake-helper/qtcreator-project.cmake",
-		"C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qtcreator/cmake-helper/package-manager.cmake",
-		"C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake",
-		"C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake",
+		"C:/Users/Admin/Documents/GitHub/SigurLogViewer/CMakeLists.txt",
+		"C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qtcreator/cmake-helper/qtcreator-project.cmake",
+		"C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qtcreator/cmake-helper/package-manager.cmake",
+		"C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake",
+		"C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake",
-		"C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
+		"C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake",
@@ -27,7 +27,7 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake",
-		"C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake",
+		"C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
@@ -339,64 +339,70 @@
 		"C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/Artor/Documents/GitHub/SigurLogViewer",
+	"CMAKE_SOURCE_DIR" : "C:/Users/Admin/Documents/GitHub/SigurLogViewer",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/deps",
+	"DEP_FILE" : "C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "FukingLogger_ST_win_mingw64_qt6_8_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/Artor/Documents/GitHub/SigurLogViewer/fileloader.h",
+			"C:/Users/Admin/Documents/GitHub/SigurLogViewer/fileloader.h",
 			"MU",
 			"EWIEGA46WW/moc_fileloader.cpp",
 			null
 		],
 		[
-			"C:/Users/Artor/Documents/GitHub/SigurLogViewer/filesplitter.h",
+			"C:/Users/Admin/Documents/GitHub/SigurLogViewer/filesplitter.h",
 			"MU",
 			"EWIEGA46WW/moc_filesplitter.cpp",
 			null
 		],
 		[
-			"C:/Users/Artor/Documents/GitHub/SigurLogViewer/linenumberarea.h",
+			"C:/Users/Admin/Documents/GitHub/SigurLogViewer/linenumberarea.h",
 			"MU",
 			"EWIEGA46WW/moc_linenumberarea.cpp",
 			null
 		],
 		[
-			"C:/Users/Artor/Documents/GitHub/SigurLogViewer/logentry.h",
+			"C:/Users/Admin/Documents/GitHub/SigurLogViewer/logentry.h",
 			"MU",
 			"EWIEGA46WW/moc_logentry.cpp",
 			null
 		],
 		[
-			"C:/Users/Artor/Documents/GitHub/SigurLogViewer/logparser.h",
+			"C:/Users/Admin/Documents/GitHub/SigurLogViewer/logparser.h",
 			"MU",
 			"EWIEGA46WW/moc_logparser.cpp",
 			null
 		],
 		[
-			"C:/Users/Artor/Documents/GitHub/SigurLogViewer/logtab.h",
+			"C:/Users/Admin/Documents/GitHub/SigurLogViewer/logtab.h",
 			"MU",
 			"EWIEGA46WW/moc_logtab.cpp",
 			null
 		],
 		[
-			"C:/Users/Artor/Documents/GitHub/SigurLogViewer/mainwindow.h",
+			"C:/Users/Admin/Documents/GitHub/SigurLogViewer/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		],
 		[
-			"C:/Users/Artor/Documents/GitHub/SigurLogViewer/syntaxhighlighter.h",
+			"C:/Users/Admin/Documents/GitHub/SigurLogViewer/settingsdialog.h",
+			"MU",
+			"EWIEGA46WW/moc_settingsdialog.cpp",
+			null
+		],
+		[
+			"C:/Users/Admin/Documents/GitHub/SigurLogViewer/syntaxhighlighter.h",
 			"MU",
 			"EWIEGA46WW/moc_syntaxhighlighter.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -452,52 +458,57 @@
 		"-c",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 6,
-	"PARSE_CACHE_FILE" : "C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 10,
+	"PARSE_CACHE_FILE" : "C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.8.3/mingw_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/6.8.3/mingw_64/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 8,
-	"SETTINGS_FILE" : "C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/Artor/Documents/GitHub/SigurLogViewer/fileloader.cpp",
+			"C:/Users/Admin/Documents/GitHub/SigurLogViewer/fileloader.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/Artor/Documents/GitHub/SigurLogViewer/filesplitter.cpp",
+			"C:/Users/Admin/Documents/GitHub/SigurLogViewer/filesplitter.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/Artor/Documents/GitHub/SigurLogViewer/linenumberarea.cpp",
+			"C:/Users/Admin/Documents/GitHub/SigurLogViewer/linenumberarea.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/Artor/Documents/GitHub/SigurLogViewer/logparser.cpp",
+			"C:/Users/Admin/Documents/GitHub/SigurLogViewer/logparser.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/Artor/Documents/GitHub/SigurLogViewer/logtab.cpp",
+			"C:/Users/Admin/Documents/GitHub/SigurLogViewer/logtab.cpp",
 			"MU",
 			null
 		],
-		[ "C:/Users/Artor/Documents/GitHub/SigurLogViewer/main.cpp", "MU", null ],
+		[ "C:/Users/Admin/Documents/GitHub/SigurLogViewer/main.cpp", "MU", null ],
 		[
-			"C:/Users/Artor/Documents/GitHub/SigurLogViewer/mainwindow.cpp",
+			"C:/Users/Admin/Documents/GitHub/SigurLogViewer/mainwindow.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/Artor/Documents/GitHub/SigurLogViewer/syntaxhighlighter.cpp",
+			"C:/Users/Admin/Documents/GitHub/SigurLogViewer/settingsdialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Admin/Documents/GitHub/SigurLogViewer/syntaxhighlighter.cpp",
 			"MU",
 			null
 		]

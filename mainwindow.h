@@ -17,6 +17,7 @@
 #include <QDockWidget>
 #include <QTextBrowser>
 
+#include "settingsdialog.h"
 #include "logtab.h"
 #include "syntaxhighlighter.h"
 #include "logparser.h"
@@ -48,6 +49,8 @@ private slots:
     void onTabClosed(int index);
     void updateStatistics();
     void openFileSplitter();
+    void openSettings();
+    void applySettings();
 
 
 private:

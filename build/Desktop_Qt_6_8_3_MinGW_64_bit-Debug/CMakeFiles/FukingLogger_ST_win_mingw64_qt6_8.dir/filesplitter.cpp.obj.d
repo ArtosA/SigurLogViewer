@@ -1,5 +1,5 @@
 CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/filesplitter.cpp.obj: \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\filesplitter.cpp \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\filesplitter.cpp \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QApplication \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qapplication.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -371,7 +371,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/filesplitter.cpp.obj: \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qlocale.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qvariant.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qguiapplication_platform.h \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\filesplitter.h \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\filesplitter.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDialog \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qwidget.h \

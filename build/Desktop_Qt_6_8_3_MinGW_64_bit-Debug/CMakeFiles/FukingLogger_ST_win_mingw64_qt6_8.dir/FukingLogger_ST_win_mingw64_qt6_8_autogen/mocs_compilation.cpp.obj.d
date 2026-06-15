@@ -1,7 +1,7 @@
 CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6_8_autogen/mocs_compilation.cpp.obj: \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\mocs_compilation.cpp \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\EWIEGA46WW/moc_fileloader.cpp \
- C:/Users/Artor/Documents/GitHub/SigurLogViewer/fileloader.h \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\mocs_compilation.cpp \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\EWIEGA46WW/moc_fileloader.cpp \
+ C:/Users/Admin/Documents/GitHub/SigurLogViewer/fileloader.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QThread \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qthread.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qobject.h \
@@ -332,7 +332,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6
  C:/Qt/6.8.3/mingw_64/include/QtCore/qstring.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QVector \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qvector.h \
- C:/Users/Artor/Documents/GitHub/SigurLogViewer/logentry.h \
+ C:/Users/Admin/Documents/GitHub/SigurLogViewer/logentry.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QDateTime \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qdatetime.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qcalendar.h \
@@ -354,14 +354,14 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6
  C:/Qt/6.8.3/mingw_64/include/QtCore/q20utility.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QStringList \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qstringlist.h \
- C:/Users/Artor/Documents/GitHub/SigurLogViewer/logparser.h \
+ C:/Users/Admin/Documents/GitHub/SigurLogViewer/logparser.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QRegularExpression \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qregularexpression.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QList \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qlist.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qtmochelpers.h \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\EWIEGA46WW/moc_filesplitter.cpp \
- C:/Users/Artor/Documents/GitHub/SigurLogViewer/filesplitter.h \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\EWIEGA46WW/moc_filesplitter.cpp \
+ C:/Users/Admin/Documents/GitHub/SigurLogViewer/filesplitter.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDialog \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -432,8 +432,8 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qpushbutton.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QProgressBar \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qprogressbar.h \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\EWIEGA46WW/moc_linenumberarea.cpp \
- C:/Users/Artor/Documents/GitHub/SigurLogViewer/linenumberarea.h \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\EWIEGA46WW/moc_linenumberarea.cpp \
+ C:/Users/Admin/Documents/GitHub/SigurLogViewer/linenumberarea.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QPlainTextEdit \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qplaintextedit.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtextedit.h \
@@ -472,19 +472,19 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6
  C:/Qt/6.8.3/mingw_64/include/QtGui/qpainter.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/QTextBlock \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qtextobject.h \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\EWIEGA46WW/moc_logtab.cpp \
- C:/Users/Artor/Documents/GitHub/SigurLogViewer/logtab.h \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\EWIEGA46WW/moc_logtab.cpp \
+ C:/Users/Admin/Documents/GitHub/SigurLogViewer/logtab.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QWidget \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qwidget.h \
- C:/Users/Artor/Documents/GitHub/SigurLogViewer/syntaxhighlighter.h \
+ C:/Users/Admin/Documents/GitHub/SigurLogViewer/syntaxhighlighter.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/QSyntaxHighlighter \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qsyntaxhighlighter.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qtextobject.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/QTextCharFormat \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qtextformat.h \
- C:/Users/Artor/Documents/GitHub/SigurLogViewer/linenumberarea.h \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\EWIEGA46WW/moc_mainwindow.cpp \
- C:/Users/Artor/Documents/GitHub/SigurLogViewer/mainwindow.h \
+ C:/Users/Admin/Documents/GitHub/SigurLogViewer/linenumberarea.h \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\EWIEGA46WW/moc_mainwindow.cpp \
+ C:/Users/Admin/Documents/GitHub/SigurLogViewer/mainwindow.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtabwidget.h \
@@ -517,8 +517,18 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdockwidget.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTextBrowser \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtextbrowser.h \
- C:/Users/Artor/Documents/GitHub/SigurLogViewer/logtab.h \
- C:/Users/Artor/Documents/GitHub/SigurLogViewer/fileloader.h \
- C:/Users/Artor/Documents/GitHub/SigurLogViewer/filesplitter.h \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\EWIEGA46WW/moc_syntaxhighlighter.cpp \
- C:/Users/Artor/Documents/GitHub/SigurLogViewer/syntaxhighlighter.h
+ C:/Users/Admin/Documents/GitHub/SigurLogViewer/settingsdialog.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QFontComboBox \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qfontcombobox.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qcombobox.h \
+ C:/Qt/6.8.3/mingw_64/include/QtGui/QColor \
+ C:/Qt/6.8.3/mingw_64/include/QtGui/qcolor.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/QSettings \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qsettings.h \
+ C:/Users/Admin/Documents/GitHub/SigurLogViewer/logtab.h \
+ C:/Users/Admin/Documents/GitHub/SigurLogViewer/fileloader.h \
+ C:/Users/Admin/Documents/GitHub/SigurLogViewer/filesplitter.h \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\EWIEGA46WW/moc_settingsdialog.cpp \
+ C:/Users/Admin/Documents/GitHub/SigurLogViewer/settingsdialog.h \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\EWIEGA46WW/moc_syntaxhighlighter.cpp \
+ C:/Users/Admin/Documents/GitHub/SigurLogViewer/syntaxhighlighter.h

@@ -1,4 +1,5 @@
 #include "linenumberarea.h"
+#include <QSettings>
 
 CodeEditor::CodeEditor(QWidget *parent)
     : QPlainTextEdit(parent)
@@ -54,8 +55,11 @@ void CodeEditor::resizeEvent(QResizeEvent *event)
 
 void CodeEditor::lineNumberAreaPaintEvent(QPaintEvent *event)
 {
+    QSettings settings("SigurTools", "LogViewer");
+    bool dark = settings.value("theme/dark", true).toBool();
+
     QPainter painter(m_lineNumberArea);
-    painter.fillRect(event->rect(), QColor("#2A2A2A"));
+    painter.fillRect(event->rect(), dark ? QColor("#2A2A2A") : QColor("#F0F0F0"));
 
     QTextBlock block = firstVisibleBlock();
     int blockNumber = block.blockNumber();
@@ -65,7 +69,7 @@ void CodeEditor::lineNumberAreaPaintEvent(QPaintEvent *event)
     while (block.isValid() && top <= event->rect().bottom()) {
         if (block.isVisible() && bottom >= event->rect().top()) {
             QString number = QString::number(blockNumber + 1);
-            painter.setPen(QColor("#666666"));
+            painter.setPen(dark ? QColor("#666666") : QColor("#999999"));
             painter.drawText(0, top,
                              m_lineNumberArea->width() - 4, fontMetrics().height(),
                              Qt::AlignRight, number);

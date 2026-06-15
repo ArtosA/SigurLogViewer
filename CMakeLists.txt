@@ -25,6 +25,8 @@ qt_add_executable(FukingLogger_ST_win_mingw64_qt6_8
     filesplitter.cpp
     linenumberarea.h
     linenumberarea.cpp
+    settingsdialog.h
+    settingsdialog.cpp
 )
 
 target_link_libraries(FukingLogger_ST_win_mingw64_qt6_8

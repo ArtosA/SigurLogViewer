@@ -53,3 +53,19 @@ void SyntaxHighlighter::highlightBlock(const QString &text)
         }
     }
 }
+
+void SyntaxHighlighter::updateColors(const QColor &info, const QColor &warn,
+                                     const QColor &error, const QColor &timestamp,
+                                     const QColor &stacktrace)
+{
+    // порядок правил: 0=error, 1=warn, 2=info, 3=debug, 4=stacktrace, 5=timestamp
+    if (m_rules.size() >= 6) {
+        m_rules[0].format.setForeground(error);
+        m_rules[1].format.setForeground(warn);
+        m_rules[2].format.setForeground(info);
+        m_rules[4].format.setForeground(stacktrace);
+        m_rules[5].format.setForeground(timestamp);
+    }
+
+    rehighlight();  // перерисовываем подсветку
+}

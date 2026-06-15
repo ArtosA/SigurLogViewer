@@ -1,7 +1,7 @@
 CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logparser.cpp.obj: \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\logparser.cpp \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\logparser.h \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\logentry.h \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\logparser.cpp \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\logparser.h \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\logentry.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QString \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qstring.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qchar.h \

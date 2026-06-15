@@ -18,6 +18,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/main.cpp.obj.d"
   "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/mainwindow.cpp.obj"
   "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/mainwindow.cpp.obj.d"
+  "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/settingsdialog.cpp.obj"
+  "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/settingsdialog.cpp.obj.d"
   "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/syntaxhighlighter.cpp.obj"
   "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/syntaxhighlighter.cpp.obj.d"
   "FukingLogger_ST_win_mingw64_qt6_8.exe"

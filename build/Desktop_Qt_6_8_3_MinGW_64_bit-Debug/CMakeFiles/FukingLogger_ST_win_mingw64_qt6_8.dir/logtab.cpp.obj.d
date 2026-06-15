@@ -1,6 +1,6 @@
 CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logtab.cpp.obj: \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\logtab.cpp \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\logtab.h \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\logtab.cpp \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\logtab.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QWidget \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qwidget.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -375,14 +375,14 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logtab.cpp.obj: \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qvector.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QString \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qstring.h \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\logentry.h \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\logentry.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QDateTime \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qdatetime.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qcalendar.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qlocale.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QStringList \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qstringlist.h \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\syntaxhighlighter.h \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\syntaxhighlighter.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/QSyntaxHighlighter \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qsyntaxhighlighter.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qtextobject.h \
@@ -430,7 +430,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logtab.cpp.obj: \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qtextformat.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QRegularExpression \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qregularexpression.h \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\linenumberarea.h \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\linenumberarea.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QPlainTextEdit \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qplaintextedit.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtextedit.h \

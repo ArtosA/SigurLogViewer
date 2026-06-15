@@ -12,6 +12,10 @@ class SyntaxHighlighter : public QSyntaxHighlighter
 public:
     explicit SyntaxHighlighter(QTextDocument *parent = nullptr);
 
+    void updateColors(const QColor &info, const QColor &warn,
+                      const QColor &error, const QColor &timestamp,
+                      const QColor &stacktrace);
+
 protected:
     // вызывается автоматически для каждой строки текста
     void highlightBlock(const QString &text) override;

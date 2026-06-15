@@ -4,4 +4,5 @@
 #include "EWIEGA46WW/moc_linenumberarea.cpp"
 #include "EWIEGA46WW/moc_logtab.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"
+#include "EWIEGA46WW/moc_settingsdialog.cpp"
 #include "EWIEGA46WW/moc_syntaxhighlighter.cpp"

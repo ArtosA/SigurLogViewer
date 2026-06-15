@@ -52,10 +52,10 @@ RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Artor\Documents\GitHub\SigurLogViewer
+CMAKE_SOURCE_DIR = C:\Users\Admin\Documents\GitHub\SigurLogViewer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug
+CMAKE_BINARY_DIR = C:\Users\Admin\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug
 
 # Utility rule file for FukingLogger_ST_win_mingw64_qt6_8_autogen_timestamp_deps.
 
@@ -77,6 +77,6 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen_timestamp_deps.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Artor\Documents\GitHub\SigurLogViewer C:\Users\Artor\Documents\GitHub\SigurLogViewer C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8_autogen_timestamp_deps.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Admin\Documents\GitHub\SigurLogViewer C:\Users\Admin\Documents\GitHub\SigurLogViewer C:\Users\Admin\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug C:\Users\Admin\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug C:\Users\Admin\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8_autogen_timestamp_deps.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen_timestamp_deps.dir/depend
 

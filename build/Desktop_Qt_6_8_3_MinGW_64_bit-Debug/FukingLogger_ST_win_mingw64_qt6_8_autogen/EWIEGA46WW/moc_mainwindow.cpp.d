@@ -1,10 +1,11 @@
-C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/Artor/Documents/GitHub/SigurLogViewer/mainwindow.h \
-  C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/moc_predefs.h \
+C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/Admin/Documents/GitHub/SigurLogViewer/mainwindow.h \
+  C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/moc_predefs.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/QDateTime \
   C:/Qt/6.8.3/mingw_64/include/QtCore/QList \
   C:/Qt/6.8.3/mingw_64/include/QtCore/QObject \
   C:/Qt/6.8.3/mingw_64/include/QtCore/QRect \
   C:/Qt/6.8.3/mingw_64/include/QtCore/QRegularExpression \
+  C:/Qt/6.8.3/mingw_64/include/QtCore/QSettings \
   C:/Qt/6.8.3/mingw_64/include/QtCore/QSize \
   C:/Qt/6.8.3/mingw_64/include/QtCore/QSizeF \
   C:/Qt/6.8.3/mingw_64/include/QtCore/QString \
@@ -100,6 +101,7 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/6.8.3/mingw_64/include/QtCore/qscopedpointer.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qscopeguard.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qset.h \
+  C:/Qt/6.8.3/mingw_64/include/QtCore/qsettings.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qshareddata.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qshareddata_impl.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qsharedpointer.h \
@@ -150,6 +152,7 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/6.8.3/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qxptype_traits.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qyieldcpu.h \
+  C:/Qt/6.8.3/mingw_64/include/QtGui/QColor \
   C:/Qt/6.8.3/mingw_64/include/QtGui/QPainter \
   C:/Qt/6.8.3/mingw_64/include/QtGui/QShortcut \
   C:/Qt/6.8.3/mingw_64/include/QtGui/QSyntaxHighlighter \
@@ -211,6 +214,7 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDateTimeEdit \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDialog \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDockWidget \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QFontComboBox \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QLabel \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QLineEdit \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QMainWindow \
@@ -232,9 +236,11 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractslider.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractspinbox.h \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qcombobox.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdatetimeedit.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdockwidget.h \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qfontcombobox.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qframe.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qlabel.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qlineedit.h \
@@ -477,10 +483,11 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/Artor/Documents/GitHub/SigurLogViewer/fileloader.h \
-  C:/Users/Artor/Documents/GitHub/SigurLogViewer/filesplitter.h \
-  C:/Users/Artor/Documents/GitHub/SigurLogViewer/linenumberarea.h \
-  C:/Users/Artor/Documents/GitHub/SigurLogViewer/logentry.h \
-  C:/Users/Artor/Documents/GitHub/SigurLogViewer/logparser.h \
-  C:/Users/Artor/Documents/GitHub/SigurLogViewer/logtab.h \
-  C:/Users/Artor/Documents/GitHub/SigurLogViewer/syntaxhighlighter.h
+  C:/Users/Admin/Documents/GitHub/SigurLogViewer/fileloader.h \
+  C:/Users/Admin/Documents/GitHub/SigurLogViewer/filesplitter.h \
+  C:/Users/Admin/Documents/GitHub/SigurLogViewer/linenumberarea.h \
+  C:/Users/Admin/Documents/GitHub/SigurLogViewer/logentry.h \
+  C:/Users/Admin/Documents/GitHub/SigurLogViewer/logparser.h \
+  C:/Users/Admin/Documents/GitHub/SigurLogViewer/logtab.h \
+  C:/Users/Admin/Documents/GitHub/SigurLogViewer/settingsdialog.h \
+  C:/Users/Admin/Documents/GitHub/SigurLogViewer/syntaxhighlighter.h

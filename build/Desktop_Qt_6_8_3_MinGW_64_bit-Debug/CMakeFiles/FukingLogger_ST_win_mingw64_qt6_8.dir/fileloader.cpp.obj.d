@@ -1,6 +1,6 @@
 CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/fileloader.cpp.obj: \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\fileloader.cpp \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\fileloader.h \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\fileloader.cpp \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\fileloader.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QThread \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qthread.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qobject.h \
@@ -331,7 +331,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/fileloader.cpp.obj: \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qstring.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QVector \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qvector.h \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\logentry.h \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\logentry.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QDateTime \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qdatetime.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qcalendar.h \
@@ -353,7 +353,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/fileloader.cpp.obj: \
  C:/Qt/6.8.3/mingw_64/include/QtCore/q20utility.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QStringList \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qstringlist.h \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\logparser.h \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\logparser.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QRegularExpression \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qregularexpression.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QFile \

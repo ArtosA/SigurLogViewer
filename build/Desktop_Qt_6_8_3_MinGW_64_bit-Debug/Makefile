@@ -56,10 +56,10 @@ RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Artor\Documents\GitHub\SigurLogViewer
+CMAKE_SOURCE_DIR = C:\Users\Admin\Documents\GitHub\SigurLogViewer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug
+CMAKE_BINARY_DIR = C:\Users\Admin\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,9 +131,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles C:\Users\Admin\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -391,6 +391,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\build.make CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+settingsdialog.obj: settingsdialog.cpp.obj
+.PHONY : settingsdialog.obj
+
+# target to build an object file
+settingsdialog.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\build.make CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/settingsdialog.cpp.obj
+.PHONY : settingsdialog.cpp.obj
+
+settingsdialog.i: settingsdialog.cpp.i
+.PHONY : settingsdialog.i
+
+# target to preprocess a source file
+settingsdialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\build.make CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/settingsdialog.cpp.i
+.PHONY : settingsdialog.cpp.i
+
+settingsdialog.s: settingsdialog.cpp.s
+.PHONY : settingsdialog.s
+
+# target to generate assembly for a file
+settingsdialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\build.make CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/settingsdialog.cpp.s
+.PHONY : settingsdialog.cpp.s
+
 syntaxhighlighter.obj: syntaxhighlighter.cpp.obj
 .PHONY : syntaxhighlighter.obj
 
@@ -454,6 +478,9 @@ help:
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
+	@echo ... settingsdialog.obj
+	@echo ... settingsdialog.i
+	@echo ... settingsdialog.s
 	@echo ... syntaxhighlighter.obj
 	@echo ... syntaxhighlighter.i
 	@echo ... syntaxhighlighter.s

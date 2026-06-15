@@ -1,5 +1,5 @@
-C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/EWIEGA46WW/moc_filesplitter.cpp: C:/Users/Artor/Documents/GitHub/SigurLogViewer/filesplitter.h \
-  C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/moc_predefs.h \
+C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/EWIEGA46WW/moc_filesplitter.cpp: C:/Users/Admin/Documents/GitHub/SigurLogViewer/filesplitter.h \
+  C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/moc_predefs.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/q20iterator.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/q20memory.h \

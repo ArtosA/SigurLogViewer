@@ -1,6 +1,6 @@
 CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/syntaxhighlighter.cpp.obj: \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\syntaxhighlighter.cpp \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\syntaxhighlighter.h \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\syntaxhighlighter.cpp \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\syntaxhighlighter.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/QSyntaxHighlighter \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qsyntaxhighlighter.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qtguiglobal.h \

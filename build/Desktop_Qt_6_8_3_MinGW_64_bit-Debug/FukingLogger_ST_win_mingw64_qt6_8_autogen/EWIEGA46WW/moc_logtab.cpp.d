@@ -1,5 +1,5 @@
-C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/EWIEGA46WW/moc_logtab.cpp: C:/Users/Artor/Documents/GitHub/SigurLogViewer/logtab.h \
-  C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/moc_predefs.h \
+C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/EWIEGA46WW/moc_logtab.cpp: C:/Users/Admin/Documents/GitHub/SigurLogViewer/logtab.h \
+  C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/moc_predefs.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/QDateTime \
   C:/Qt/6.8.3/mingw_64/include/QtCore/QList \
   C:/Qt/6.8.3/mingw_64/include/QtCore/QObject \
@@ -416,6 +416,6 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/Artor/Documents/GitHub/SigurLogViewer/linenumberarea.h \
-  C:/Users/Artor/Documents/GitHub/SigurLogViewer/logentry.h \
-  C:/Users/Artor/Documents/GitHub/SigurLogViewer/syntaxhighlighter.h
+  C:/Users/Admin/Documents/GitHub/SigurLogViewer/linenumberarea.h \
+  C:/Users/Admin/Documents/GitHub/SigurLogViewer/logentry.h \
+  C:/Users/Admin/Documents/GitHub/SigurLogViewer/syntaxhighlighter.h
