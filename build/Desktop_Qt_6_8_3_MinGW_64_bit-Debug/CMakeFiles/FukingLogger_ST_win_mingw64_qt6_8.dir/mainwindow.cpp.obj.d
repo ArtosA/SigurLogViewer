@@ -1,6 +1,6 @@
 CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/mainwindow.cpp.obj: \
- C:\Users\Admin\Documents\FukingLogger_ST_win_mingw64_qt6_8\mainwindow.cpp \
- C:\Users\Admin\Documents\FukingLogger_ST_win_mingw64_qt6_8\mainwindow.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\mainwindow.cpp \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\mainwindow.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -454,7 +454,12 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/mainwindow.cpp.obj: \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QPushButton \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qpushbutton.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractbutton.h \
- C:\Users\Admin\Documents\FukingLogger_ST_win_mingw64_qt6_8\syntaxhighlighter.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDateTimeEdit \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdatetimeedit.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qtimezone.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qdatetime.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qcalendar.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\syntaxhighlighter.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/QSyntaxHighlighter \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qsyntaxhighlighter.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qtextobject.h \
@@ -462,13 +467,12 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/mainwindow.cpp.obj: \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qtextformat.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QRegularExpression \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qregularexpression.h \
- C:\Users\Admin\Documents\FukingLogger_ST_win_mingw64_qt6_8\logparser.h \
- C:\Users\Admin\Documents\FukingLogger_ST_win_mingw64_qt6_8\logentry.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\logparser.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\logentry.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QString \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qstring.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QDateTime \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qdatetime.h \
- C:/Qt/6.8.3/mingw_64/include/QtCore/qcalendar.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QStringList \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qstringlist.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QVector \
@@ -485,7 +489,6 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/mainwindow.cpp.obj: \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qdir.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qdirlisting.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qfiledevice.h \
- C:/Qt/6.8.3/mingw_64/include/QtCore/qdatetime.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qfile.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/filesystem \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_fwd.h \
@@ -518,7 +521,6 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/mainwindow.cpp.obj: \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qfileinfo.h \
- C:/Qt/6.8.3/mingw_64/include/QtCore/qtimezone.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QFile \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qfile.h \

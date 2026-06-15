@@ -52,10 +52,10 @@ RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Admin\Documents\FukingLogger_ST_win_mingw64_qt6_8
+CMAKE_SOURCE_DIR = C:\Users\Artor\Documents\GitHub\SigurLogViewer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Admin\Documents\FukingLogger_ST_win_mingw64_qt6_8\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug
+CMAKE_BINARY_DIR = C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug
 
 # Utility rule file for FukingLogger_ST_win_mingw64_qt6_8_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen: FukingLogger_ST_win_mingw6
 FukingLogger_ST_win_mingw64_qt6_8_autogen/timestamp: C:/Qt/6.8.3/mingw_64/bin/moc.exe
 FukingLogger_ST_win_mingw64_qt6_8_autogen/timestamp: C:/Qt/6.8.3/mingw_64/bin/uic.exe
 FukingLogger_ST_win_mingw64_qt6_8_autogen/timestamp: CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Admin\Documents\FukingLogger_ST_win_mingw64_qt6_8\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target FukingLogger_ST_win_mingw64_qt6_8"
-	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/Admin/Documents/FukingLogger_ST_win_mingw64_qt6_8/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen.dir/AutogenInfo.json Debug
-	C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/Admin/Documents/FukingLogger_ST_win_mingw64_qt6_8/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target FukingLogger_ST_win_mingw64_qt6_8"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen.dir/AutogenInfo.json Debug
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/timestamp
 
 FukingLogger_ST_win_mingw64_qt6_8_autogen: CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen
 FukingLogger_ST_win_mingw64_qt6_8_autogen: FukingLogger_ST_win_mingw64_qt6_8_autogen/timestamp
@@ -88,6 +88,6 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen.dir/clean:
 .PHONY : CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen.dir/clean
 
 CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Admin\Documents\FukingLogger_ST_win_mingw64_qt6_8 C:\Users\Admin\Documents\FukingLogger_ST_win_mingw64_qt6_8 C:\Users\Admin\Documents\FukingLogger_ST_win_mingw64_qt6_8\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug C:\Users\Admin\Documents\FukingLogger_ST_win_mingw64_qt6_8\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug C:\Users\Admin\Documents\FukingLogger_ST_win_mingw64_qt6_8\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Artor\Documents\GitHub\SigurLogViewer C:\Users\Artor\Documents\GitHub\SigurLogViewer C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8_autogen.dir/depend
 

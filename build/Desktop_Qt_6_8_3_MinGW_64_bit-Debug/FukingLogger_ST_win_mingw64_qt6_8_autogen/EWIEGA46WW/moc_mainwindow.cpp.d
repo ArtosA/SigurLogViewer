@@ -1,5 +1,5 @@
-C:/Users/Admin/Documents/FukingLogger_ST_win_mingw64_qt6_8/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/Admin/Documents/FukingLogger_ST_win_mingw64_qt6_8/mainwindow.h \
-  C:/Users/Admin/Documents/FukingLogger_ST_win_mingw64_qt6_8/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/moc_predefs.h \
+C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/Artor/Documents/GitHub/SigurLogViewer/mainwindow.h \
+  C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/moc_predefs.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/QDateTime \
   C:/Qt/6.8.3/mingw_64/include/QtCore/QList \
   C:/Qt/6.8.3/mingw_64/include/QtCore/QObject \
@@ -129,6 +129,7 @@ C:/Users/Admin/Documents/FukingLogger_ST_win_mingw64_qt6_8/build/Desktop_Qt_6_8_
   C:/Qt/6.8.3/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qtenvironmentvariables.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qtextstream.h \
+  C:/Qt/6.8.3/mingw_64/include/QtCore/qtimezone.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qtmetamacros.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qtnoop.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -202,6 +203,7 @@ C:/Users/Admin/Documents/FukingLogger_ST_win_mingw64_qt6_8/build/Desktop_Qt_6_8_
   C:/Qt/6.8.3/mingw_64/include/QtGui/qvectornd.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDateTimeEdit \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QLabel \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QLineEdit \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QMainWindow \
@@ -217,6 +219,7 @@ C:/Users/Admin/Documents/FukingLogger_ST_win_mingw64_qt6_8/build/Desktop_Qt_6_8_
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractslider.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractspinbox.h \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdatetimeedit.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qframe.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qlabel.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qlineedit.h \
@@ -448,6 +451,6 @@ C:/Users/Admin/Documents/FukingLogger_ST_win_mingw64_qt6_8/build/Desktop_Qt_6_8_
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/Admin/Documents/FukingLogger_ST_win_mingw64_qt6_8/logentry.h \
-  C:/Users/Admin/Documents/FukingLogger_ST_win_mingw64_qt6_8/logparser.h \
-  C:/Users/Admin/Documents/FukingLogger_ST_win_mingw64_qt6_8/syntaxhighlighter.h
+  C:/Users/Artor/Documents/GitHub/SigurLogViewer/logentry.h \
+  C:/Users/Artor/Documents/GitHub/SigurLogViewer/logparser.h \
+  C:/Users/Artor/Documents/GitHub/SigurLogViewer/syntaxhighlighter.h

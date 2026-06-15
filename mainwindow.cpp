@@ -105,6 +105,41 @@ void MainWindow::setupUI()
     filterLayout->addWidget(m_filterOther);
     filterLayout->addStretch();  // прижимает кнопки влево
 
+    // панель фильтра по времени
+    QHBoxLayout *timeLayout = new QHBoxLayout();
+
+    QLabel *timeLabel = new QLabel("Время:", this);
+
+    m_timeFrom = new QDateTimeEdit(this);
+    m_timeFrom->setDisplayFormat("yyyy-MM-dd HH:mm:ss.zzz");
+    m_timeFrom->setCalendarPopup(false);
+
+    QLabel *timeDash = new QLabel("—", this);
+
+    m_timeTo = new QDateTimeEdit(this);
+    m_timeTo->setDisplayFormat("yyyy-MM-dd HH:mm:ss.zzz");
+    m_timeTo->setCalendarPopup(false);
+
+    m_timeApply = new QPushButton("Применить", this);
+    m_timeApply->setStyleSheet("padding: 4px 12px;");
+
+    m_timeReset = new QPushButton("Сброс", this);
+    m_timeReset->setStyleSheet("padding: 4px 12px;");
+
+    timeLayout->addWidget(timeLabel);
+    timeLayout->addWidget(m_timeFrom);
+    timeLayout->addWidget(timeDash);
+    timeLayout->addWidget(m_timeTo);
+    timeLayout->addWidget(m_timeApply);
+    timeLayout->addWidget(m_timeReset);
+    timeLayout->addStretch();
+
+    // собираем layout
+    mainLayout->addLayout(filterLayout);   // фильтры уровней
+    mainLayout->addLayout(timeLayout);     // фильтр времени
+    mainLayout->addWidget(m_splitter);     // splitter
+    mainLayout->addWidget(m_searchField);  // поиск
+
     // собираем layout
     mainLayout->addLayout(filterLayout);   // фильтры сверху
     mainLayout->addWidget(m_splitter);     // splitter посередине
@@ -159,6 +194,12 @@ void MainWindow::setupConnections()
             this, &MainWindow::onFilterChanged);
     connect(m_filterOther, &QPushButton::toggled,
             this, &MainWindow::onFilterChanged);
+
+    // фильтр по времени
+    connect(m_timeApply, &QPushButton::clicked,
+            this, &MainWindow::onTimeFilterApply);
+    connect(m_timeReset, &QPushButton::clicked,
+            this, &MainWindow::onTimeFilterReset);
 }
 
 void MainWindow::openFile()
@@ -194,6 +235,21 @@ void MainWindow::openFile()
     m_entries = m_parser.parse(content);
     m_currentFile = filePath;
 
+    // устанавливаем диапазон времени из данных
+    if (!m_entries.isEmpty()) {
+        QDateTime minTime, maxTime;
+        for (const auto& entry : m_entries) {
+            if (!entry.timestamp.isValid())
+                continue;
+            if (!minTime.isValid() || entry.timestamp < minTime)
+                minTime = entry.timestamp;
+            if (!maxTime.isValid() || entry.timestamp > maxTime)
+                maxTime = entry.timestamp;
+        }
+        m_timeFrom->setDateTime(minTime);
+        m_timeTo->setDateTime(maxTime);
+    }
+
     // наполняем дерево
     populateTree();
 
@@ -217,51 +273,82 @@ void MainWindow::populateTree()
 {
     m_treePanel->clear();
 
-    // считаем количество записей по уровням
-    int countInfo = 0, countWarn = 0, countError = 0, countOther = 0;
+    // структура: level → source → список записей
+    // QMap автоматически сортирует по ключу
+    struct SourceGroup {
+        QVector<int> entryIndices;  // индексы записей в m_entries
+    };
 
-    for (const auto& entry : m_entries) {
+    struct LevelGroup {
+        QMap<QString, SourceGroup> sources;
+        int count = 0;
+    };
+
+    QMap<QString, LevelGroup> levels;
+    levels["1_INFO"]    = LevelGroup();
+    levels["2_WARNING"] = LevelGroup();
+    levels["3_ERROR"]   = LevelGroup();
+    levels["4_OTHER"]   = LevelGroup();
+
+    // группируем записи
+    for (int i = 0; i < m_entries.size(); i++) {
+        const auto& entry = m_entries[i];
+
+        QString levelKey;
         switch (entry.level) {
-        case LogLevel::Info:    countInfo++;  break;
-        case LogLevel::Warning: countWarn++;  break;
-        case LogLevel::Error:   countError++; break;
-        default:                countOther++; break;
+        case LogLevel::Info:    levelKey = "1_INFO";    break;
+        case LogLevel::Warning: levelKey = "2_WARNING"; break;
+        case LogLevel::Error:   levelKey = "3_ERROR";   break;
+        default:                levelKey = "4_OTHER";   break;
         }
+
+        // сокращаем имя источника для читаемости
+        QString source = entry.source;
+        if (source.isEmpty())
+            source = "unknown";
+
+        // убираем длинный путь пакета, оставляем последнюю часть
+        // com.sigur.notification.NotificationServiceApp → NotificationServiceApp
+        int lastDot = source.lastIndexOf('.');
+        if (lastDot != -1)
+            source = source.mid(lastDot + 1);
+
+        levels[levelKey].count++;
+        levels[levelKey].sources[source].entryIndices.append(i);
     }
 
-    // создаём корневые узлы дерева
-    // QTreeWidgetItem(parent, QStringList{текст})
-    auto *rootInfo = new QTreeWidgetItem(m_treePanel,
-                                         QStringList{"INFO (" + QString::number(countInfo) + ")"});
+    // строим дерево
+    for (auto levelIt = levels.begin(); levelIt != levels.end(); ++levelIt) {
+        QString levelName = levelIt.key().mid(2);  // убираем "1_" префикс
+        int count = levelIt.value().count;
 
-    auto *rootWarn = new QTreeWidgetItem(m_treePanel,
-                                         QStringList{"WARNING (" + QString::number(countWarn) + ")"});
+        if (count == 0)
+            continue;
 
-    auto *rootError = new QTreeWidgetItem(m_treePanel,
-                                          QStringList{"ERROR (" + QString::number(countError) + ")"});
+        // корневой узел уровня
+        auto *levelItem = new QTreeWidgetItem(m_treePanel,
+                                              QStringList{levelName + " (" + QString::number(count) + ")"});
 
-    auto *rootOther = new QTreeWidgetItem(m_treePanel,
-                                          QStringList{"OTHER (" + QString::number(countOther) + ")"});
+        // узлы источников
+        const auto& sources = levelIt.value().sources;
+        for (auto srcIt = sources.begin(); srcIt != sources.end(); ++srcIt) {
+            const QString& sourceName = srcIt.key();
+            const auto& indices = srcIt.value().entryIndices;
 
-    // наполняем каждый узел дочерними элементами
-    for (const auto& entry : m_entries) {
-        QTreeWidgetItem *parent = nullptr;
+            auto *sourceItem = new QTreeWidgetItem(levelItem,
+                                                   QStringList{sourceName + " (" + QString::number(indices.size()) + ")"});
 
-        switch (entry.level) {
-        case LogLevel::Info:    parent = rootInfo;  break;
-        case LogLevel::Warning: parent = rootWarn;  break;
-        case LogLevel::Error:   parent = rootError; break;
-        default:                parent = rootOther; break;
+            // дочерние элементы — конкретные записи
+            for (int idx : indices) {
+                const auto& entry = m_entries[idx];
+
+                QString label = entry.timestamp.toString("HH:mm:ss.zzz") +
+                                " | " + entry.message.left(60);
+
+                auto *child = new QTreeWidgetItem(sourceItem, QStringList{label});
+                child->setData(0, Qt::UserRole, entry.lineNumber);
+            }
         }
-
-        // текст дочернего элемента — время + начало сообщения
-        QString label = entry.timestamp.toString("HH:mm:ss") +
-                        " | " + entry.message.left(80);
-
-        auto *child = new QTreeWidgetItem(parent, QStringList{label});
-
-        // сохраняем номер строки в UserRole — пригодится для навигации
-        child->setData(0, Qt::UserRole, entry.lineNumber);
     }
 }
 
@@ -415,8 +502,15 @@ void MainWindow::applyFilter()
         }
 
         if (show) {
+            // проверяем время если фильтр активен
+            if (entry.timestamp.isValid()) {
+                QDateTime from = m_timeFrom->dateTime();
+                QDateTime to = m_timeTo->dateTime();
+                if (entry.timestamp < from || entry.timestamp > to)
+                    continue;
+            }
+
             filtered += entry.rawText + "\n";
-            // добавляем stacktrace если есть
             for (const auto& st : entry.stacktrace)
                 filtered += st + "\n";
             count++;
@@ -428,5 +522,78 @@ void MainWindow::applyFilter()
     m_statusLabel->setText(
         "Фильтр | Показано: " + QString::number(count) +
         " из " + QString::number(m_entries.size())
+        );
+}
+
+void MainWindow::onTimeFilterApply()
+{
+    if (m_entries.isEmpty())
+        return;
+
+    QDateTime from = m_timeFrom->dateTime();
+    QDateTime to = m_timeTo->dateTime();
+
+    QString filtered;
+    int count = 0;
+
+    for (const auto& entry : m_entries) {
+        // проверяем уровень
+        bool levelOk = false;
+        switch (entry.level) {
+        case LogLevel::Info:    levelOk = m_filterInfo->isChecked(); break;
+        case LogLevel::Warning: levelOk = m_filterWarn->isChecked(); break;
+        case LogLevel::Error:   levelOk = m_filterError->isChecked(); break;
+        default:                levelOk = m_filterOther->isChecked(); break;
+        }
+
+        if (!levelOk)
+            continue;
+
+        // проверяем время
+        if (entry.timestamp.isValid()) {
+            if (entry.timestamp < from || entry.timestamp > to)
+                continue;
+        }
+
+        filtered += entry.rawText + "\n";
+        for (const auto& st : entry.stacktrace)
+            filtered += st + "\n";
+        count++;
+    }
+
+    m_logViewer->setPlainText(filtered);
+
+    m_statusLabel->setText(
+        "Временной фильтр | Показано: " + QString::number(count) +
+        " из " + QString::number(m_entries.size()) +
+        " | " + from.toString("HH:mm:ss") +
+        " — " + to.toString("HH:mm:ss")
+        );
+}
+
+void MainWindow::onTimeFilterReset()
+{
+    if (m_entries.isEmpty())
+        return;
+
+    // возвращаем полный диапазон
+    QDateTime minTime, maxTime;
+    for (const auto& entry : m_entries) {
+        if (!entry.timestamp.isValid())
+            continue;
+        if (!minTime.isValid() || entry.timestamp < minTime)
+            minTime = entry.timestamp;
+        if (!maxTime.isValid() || entry.timestamp > maxTime)
+            maxTime = entry.timestamp;
+    }
+    m_timeFrom->setDateTime(minTime);
+    m_timeTo->setDateTime(maxTime);
+
+    // показываем всё
+    m_logViewer->setPlainText(m_rawContent);
+
+    m_statusLabel->setText(
+        "Файл: " + m_currentFile +
+        " | Записей: " + QString::number(m_entries.size())
         );
 }

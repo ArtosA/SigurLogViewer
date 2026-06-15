@@ -11,6 +11,7 @@
 #include <QLabel>
 #include <QShortcut>
 #include <QPushButton>
+#include <QDateTimeEdit>
 
 #include "syntaxhighlighter.h"
 #include "logparser.h"
@@ -29,6 +30,8 @@ private slots:
     void onSearch();
     void onSearchNext();
     void onFilterChanged();
+    void onTimeFilterApply();
+    void onTimeFilterReset();
 
 private:
     void setupUI();
@@ -63,6 +66,10 @@ private:
     void applyFilter();
     QString m_rawContent;  // оригинальный текст файла
 
+    QDateTimeEdit *m_timeFrom;
+    QDateTimeEdit *m_timeTo;
+    QPushButton   *m_timeApply;
+    QPushButton   *m_timeReset;
 };
 
 #endif // MAINWINDOW_H
