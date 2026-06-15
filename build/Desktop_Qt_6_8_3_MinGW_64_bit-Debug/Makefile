@@ -247,6 +247,54 @@ fileloader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\build.make CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/fileloader.cpp.s
 .PHONY : fileloader.cpp.s
 
+filesplitter.obj: filesplitter.cpp.obj
+.PHONY : filesplitter.obj
+
+# target to build an object file
+filesplitter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\build.make CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/filesplitter.cpp.obj
+.PHONY : filesplitter.cpp.obj
+
+filesplitter.i: filesplitter.cpp.i
+.PHONY : filesplitter.i
+
+# target to preprocess a source file
+filesplitter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\build.make CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/filesplitter.cpp.i
+.PHONY : filesplitter.cpp.i
+
+filesplitter.s: filesplitter.cpp.s
+.PHONY : filesplitter.s
+
+# target to generate assembly for a file
+filesplitter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\build.make CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/filesplitter.cpp.s
+.PHONY : filesplitter.cpp.s
+
+linenumberarea.obj: linenumberarea.cpp.obj
+.PHONY : linenumberarea.obj
+
+# target to build an object file
+linenumberarea.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\build.make CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/linenumberarea.cpp.obj
+.PHONY : linenumberarea.cpp.obj
+
+linenumberarea.i: linenumberarea.cpp.i
+.PHONY : linenumberarea.i
+
+# target to preprocess a source file
+linenumberarea.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\build.make CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/linenumberarea.cpp.i
+.PHONY : linenumberarea.cpp.i
+
+linenumberarea.s: linenumberarea.cpp.s
+.PHONY : linenumberarea.s
+
+# target to generate assembly for a file
+linenumberarea.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\build.make CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/linenumberarea.cpp.s
+.PHONY : linenumberarea.cpp.s
+
 logparser.obj: logparser.cpp.obj
 .PHONY : logparser.obj
 
@@ -388,6 +436,12 @@ help:
 	@echo ... fileloader.obj
 	@echo ... fileloader.i
 	@echo ... fileloader.s
+	@echo ... filesplitter.obj
+	@echo ... filesplitter.i
+	@echo ... filesplitter.s
+	@echo ... linenumberarea.obj
+	@echo ... linenumberarea.i
+	@echo ... linenumberarea.s
 	@echo ... logparser.obj
 	@echo ... logparser.i
 	@echo ... logparser.s

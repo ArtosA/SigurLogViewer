@@ -7,6 +7,9 @@
 #include <QTextStream>
 #include <QMessageBox>
 #include <QTextBlock>
+#include <QDragEnterEvent>
+#include <QDropEvent>
+#include <QMimeData>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -28,6 +31,8 @@ MainWindow::MainWindow(QWidget *parent)
 
     setWindowTitle("Sigur Log Viewer");
     resize(1200, 700);
+    setAcceptDrops(true);  // ← включаем drag & drop
+
 }
 
 MainWindow::~MainWindow()
@@ -155,6 +160,12 @@ void MainWindow::setupMenuBar()
     QAction *exitAction = fileMenu->addAction("Выход");
     exitAction->setShortcut(QKeySequence("Ctrl+Q"));
     connect(exitAction, &QAction::triggered, this, &QWidget::close);
+
+    // меню Инструменты
+    QMenu *toolsMenu = menuBar()->addMenu("Инструменты");
+
+    QAction *splitAction = toolsMenu->addAction("Разбивка файла...");
+    connect(splitAction, &QAction::triggered, this, &MainWindow::openFileSplitter);
 
     // меню Вид
     QMenu *viewMenu = menuBar()->addMenu("Вид");
@@ -770,4 +781,53 @@ void MainWindow::updateStatistics()
     html += "</table>";
 
     m_statsView->setHtml(html);
+}
+
+void MainWindow::openFileSplitter()
+{
+    LogTab *tab = currentTab();
+    QString filePath;
+
+    if (tab) {
+        filePath = tab->filePath;
+    } else {
+        filePath = QFileDialog::getOpenFileName(
+            this, "Выбери файл для разбивки", QString(),
+            "Log files (*.log *.txt);;All files (*.*)");
+    }
+
+    if (filePath.isEmpty())
+        return;
+
+    FileSplitter dialog(filePath, this);
+    dialog.exec();
+}
+
+void MainWindow::dragEnterEvent(QDragEnterEvent *event)
+{
+    if (event->mimeData()->hasUrls()) {
+        // проверяем что хотя бы один файл подходит
+        for (const QUrl &url : event->mimeData()->urls()) {
+            QString path = url.toLocalFile();
+            if (path.endsWith(".log") || path.endsWith(".txt")) {
+                event->acceptProposedAction();
+                return;
+            }
+        }
+    }
+}
+
+void MainWindow::dropEvent(QDropEvent *event)
+{
+    for (const QUrl &url : event->mimeData()->urls()) {
+        QString filePath = url.toLocalFile();
+        if (filePath.endsWith(".log") || filePath.endsWith(".txt")) {
+            m_statusLabel->setText("Загрузка: " + filePath);
+            m_progressBar->setValue(0);
+            m_progressBar->show();
+
+            m_fileLoader->setProperty("filePath", filePath);
+            m_fileLoader->loadFile(filePath);
+        }
+    }
 }

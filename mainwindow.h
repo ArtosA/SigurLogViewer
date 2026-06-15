@@ -21,6 +21,8 @@
 #include "syntaxhighlighter.h"
 #include "logparser.h"
 #include "fileloader.h"
+#include "filesplitter.h"
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -45,6 +47,8 @@ private slots:
     void onTabChanged(int index);
     void onTabClosed(int index);
     void updateStatistics();
+    void openFileSplitter();
+
 
 private:
     void setupUI();
@@ -87,6 +91,11 @@ private:
     //statistika
     QDockWidget   *m_statsDock;
     QTextBrowser  *m_statsView;
+
+protected:
+    void dragEnterEvent(QDragEnterEvent *event) override;
+    void dropEvent(QDropEvent *event) override;
+
 };
 
 #endif // MAINWINDOW_H

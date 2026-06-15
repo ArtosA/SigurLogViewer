@@ -145,7 +145,9 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/6.8.3/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qxptype_traits.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qyieldcpu.h \
+  C:/Qt/6.8.3/mingw_64/include/QtGui/QPainter \
   C:/Qt/6.8.3/mingw_64/include/QtGui/QSyntaxHighlighter \
+  C:/Qt/6.8.3/mingw_64/include/QtGui/QTextBlock \
   C:/Qt/6.8.3/mingw_64/include/QtGui/QTextCharFormat \
   C:/Qt/6.8.3/mingw_64/include/QtGui/QTransform \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qabstracttextdocumentlayout.h \
@@ -169,6 +171,7 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/6.8.3/mingw_64/include/QtGui/qinputmethod.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qpaintdevice.h \
+  C:/Qt/6.8.3/mingw_64/include/QtGui/qpainter.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qpalette.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qpen.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qpixelformat.h \
@@ -413,5 +416,6 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
+  C:/Users/Artor/Documents/GitHub/SigurLogViewer/linenumberarea.h \
   C:/Users/Artor/Documents/GitHub/SigurLogViewer/logentry.h \
   C:/Users/Artor/Documents/GitHub/SigurLogViewer/syntaxhighlighter.h

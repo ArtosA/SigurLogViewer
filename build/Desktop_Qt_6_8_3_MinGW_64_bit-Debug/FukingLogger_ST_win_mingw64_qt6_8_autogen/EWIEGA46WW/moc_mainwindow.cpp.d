@@ -150,8 +150,10 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/6.8.3/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qxptype_traits.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qyieldcpu.h \
+  C:/Qt/6.8.3/mingw_64/include/QtGui/QPainter \
   C:/Qt/6.8.3/mingw_64/include/QtGui/QShortcut \
   C:/Qt/6.8.3/mingw_64/include/QtGui/QSyntaxHighlighter \
+  C:/Qt/6.8.3/mingw_64/include/QtGui/QTextBlock \
   C:/Qt/6.8.3/mingw_64/include/QtGui/QTextCharFormat \
   C:/Qt/6.8.3/mingw_64/include/QtGui/QTransform \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qabstracttextdocumentlayout.h \
@@ -175,6 +177,7 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/6.8.3/mingw_64/include/QtGui/qinputmethod.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qpaintdevice.h \
+  C:/Qt/6.8.3/mingw_64/include/QtGui/qpainter.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qpalette.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qpen.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qpicture.h \
@@ -206,6 +209,7 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/6.8.3/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDateTimeEdit \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDialog \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDockWidget \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QLabel \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QLineEdit \
@@ -214,6 +218,8 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QPlainTextEdit \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QProgressBar \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QPushButton \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QRadioButton \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QSpinBox \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QSplitter \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QStatusBar \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTabWidget \
@@ -227,6 +233,7 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractslider.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractspinbox.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdatetimeedit.h \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdockwidget.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qframe.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qlabel.h \
@@ -237,9 +244,11 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qplaintextedit.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qprogressbar.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qpushbutton.h \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qradiobutton.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qrubberband.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qslider.h \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qspinbox.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qsplitter.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qstatusbar.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qstyle.h \
@@ -469,6 +478,8 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Users/Artor/Documents/GitHub/SigurLogViewer/fileloader.h \
+  C:/Users/Artor/Documents/GitHub/SigurLogViewer/filesplitter.h \
+  C:/Users/Artor/Documents/GitHub/SigurLogViewer/linenumberarea.h \
   C:/Users/Artor/Documents/GitHub/SigurLogViewer/logentry.h \
   C:/Users/Artor/Documents/GitHub/SigurLogViewer/logparser.h \
   C:/Users/Artor/Documents/GitHub/SigurLogViewer/logtab.h \

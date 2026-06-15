@@ -7,7 +7,7 @@ LogTab::LogTab(QWidget *parent)
     QVBoxLayout *layout = new QVBoxLayout(this);
     layout->setContentsMargins(0, 0, 0, 0);
 
-    logViewer = new QPlainTextEdit(this);
+    logViewer = new CodeEditor(this);
     logViewer->setReadOnly(true);
     logViewer->setLineWrapMode(QPlainTextEdit::NoWrap);
     logViewer->setFont(QFont("Consolas", 10));

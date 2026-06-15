@@ -352,6 +352,18 @@
 			null
 		],
 		[
+			"C:/Users/Artor/Documents/GitHub/SigurLogViewer/filesplitter.h",
+			"MU",
+			"EWIEGA46WW/moc_filesplitter.cpp",
+			null
+		],
+		[
+			"C:/Users/Artor/Documents/GitHub/SigurLogViewer/linenumberarea.h",
+			"MU",
+			"EWIEGA46WW/moc_linenumberarea.cpp",
+			null
+		],
+		[
 			"C:/Users/Artor/Documents/GitHub/SigurLogViewer/logentry.h",
 			"MU",
 			"EWIEGA46WW/moc_logentry.cpp",
@@ -455,6 +467,16 @@
 	[
 		[
 			"C:/Users/Artor/Documents/GitHub/SigurLogViewer/fileloader.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Artor/Documents/GitHub/SigurLogViewer/filesplitter.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Artor/Documents/GitHub/SigurLogViewer/linenumberarea.cpp",
 			"MU",
 			null
 		],

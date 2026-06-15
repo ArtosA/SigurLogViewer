@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/FukingLogger_ST_win_mingw64_qt6_8_autogen/mocs_compilation.cpp" "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6_8_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6_8_autogen/mocs_compilation.cpp.obj.d"
   "C:/Users/Artor/Documents/GitHub/SigurLogViewer/fileloader.cpp" "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/fileloader.cpp.obj" "gcc" "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/fileloader.cpp.obj.d"
+  "C:/Users/Artor/Documents/GitHub/SigurLogViewer/filesplitter.cpp" "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/filesplitter.cpp.obj" "gcc" "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/filesplitter.cpp.obj.d"
+  "C:/Users/Artor/Documents/GitHub/SigurLogViewer/linenumberarea.cpp" "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/linenumberarea.cpp.obj" "gcc" "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/linenumberarea.cpp.obj.d"
   "C:/Users/Artor/Documents/GitHub/SigurLogViewer/logparser.cpp" "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logparser.cpp.obj" "gcc" "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logparser.cpp.obj.d"
   "C:/Users/Artor/Documents/GitHub/SigurLogViewer/logtab.cpp" "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logtab.cpp.obj" "gcc" "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logtab.cpp.obj.d"
   "C:/Users/Artor/Documents/GitHub/SigurLogViewer/main.cpp" "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/main.cpp.obj" "gcc" "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/main.cpp.obj.d"

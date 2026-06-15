@@ -21,6 +21,10 @@ qt_add_executable(FukingLogger_ST_win_mingw64_qt6_8
     fileloader.cpp
     logtab.h
     logtab.cpp
+    filesplitter.h
+    filesplitter.cpp
+    linenumberarea.h
+    linenumberarea.cpp
 )
 
 target_link_libraries(FukingLogger_ST_win_mingw64_qt6_8

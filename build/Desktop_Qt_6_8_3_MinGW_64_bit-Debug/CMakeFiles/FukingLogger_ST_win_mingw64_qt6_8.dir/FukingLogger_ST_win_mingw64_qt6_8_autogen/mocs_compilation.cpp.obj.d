@@ -360,16 +360,17 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6
  C:/Qt/6.8.3/mingw_64/include/QtCore/QList \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qlist.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qtmochelpers.h \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\EWIEGA46WW/moc_logtab.cpp \
- C:/Users/Artor/Documents/GitHub/SigurLogViewer/logtab.h \
- C:/Qt/6.8.3/mingw_64/include/QtWidgets/QWidget \
- C:/Qt/6.8.3/mingw_64/include/QtWidgets/qwidget.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\EWIEGA46WW/moc_filesplitter.cpp \
+ C:/Users/Artor/Documents/GitHub/SigurLogViewer/filesplitter.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDialog \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qtguiglobal.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qtgui-config.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qtguiexports.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qwidget.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qwindowdefs.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qwindowdefs_win.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qmargins.h \
@@ -402,23 +403,45 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qsizepolicy.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qbitmap.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QLineEdit \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qlineedit.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qframe.h \
+ C:/Qt/6.8.3/mingw_64/include/QtGui/qtextcursor.h \
+ C:/Qt/6.8.3/mingw_64/include/QtGui/qtextdocument.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qurl.h \
+ C:/Qt/6.8.3/mingw_64/include/QtGui/qtextformat.h \
+ C:/Qt/6.8.3/mingw_64/include/QtGui/qpen.h \
+ C:/Qt/6.8.3/mingw_64/include/QtGui/qtextoption.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QRadioButton \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qradiobutton.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractbutton.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QSpinBox \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qspinbox.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractspinbox.h \
+ C:/Qt/6.8.3/mingw_64/include/QtGui/qvalidator.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qregularexpression.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDateTimeEdit \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdatetimeedit.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qtimezone.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qdatetime.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QLabel \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qlabel.h \
+ C:/Qt/6.8.3/mingw_64/include/QtGui/qpicture.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qiodevice.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QPushButton \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qpushbutton.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QProgressBar \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qprogressbar.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\EWIEGA46WW/moc_linenumberarea.cpp \
+ C:/Users/Artor/Documents/GitHub/SigurLogViewer/linenumberarea.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QPlainTextEdit \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qplaintextedit.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtextedit.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
- C:/Qt/6.8.3/mingw_64/include/QtWidgets/qframe.h \
- C:/Qt/6.8.3/mingw_64/include/QtWidgets/qwidget.h \
- C:/Qt/6.8.3/mingw_64/include/QtGui/qtextdocument.h \
- C:/Qt/6.8.3/mingw_64/include/QtCore/qurl.h \
- C:/Qt/6.8.3/mingw_64/include/QtGui/qtextoption.h \
- C:/Qt/6.8.3/mingw_64/include/QtGui/qtextcursor.h \
- C:/Qt/6.8.3/mingw_64/include/QtGui/qtextformat.h \
- C:/Qt/6.8.3/mingw_64/include/QtGui/qpen.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qabstracttextdocumentlayout.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qtextlayout.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qevent.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qcoreevent.h \
- C:/Qt/6.8.3/mingw_64/include/QtCore/qiodevice.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qeventpoint.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qvector2d.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qvectornd.h \
@@ -445,12 +468,21 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6
  C:/Qt/6.8.3/mingw_64/include/QtGui/qglyphrun.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qrawfont.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qfontdatabase.h \
+ C:/Qt/6.8.3/mingw_64/include/QtGui/QPainter \
+ C:/Qt/6.8.3/mingw_64/include/QtGui/qpainter.h \
+ C:/Qt/6.8.3/mingw_64/include/QtGui/QTextBlock \
+ C:/Qt/6.8.3/mingw_64/include/QtGui/qtextobject.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\EWIEGA46WW/moc_logtab.cpp \
+ C:/Users/Artor/Documents/GitHub/SigurLogViewer/logtab.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QWidget \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qwidget.h \
  C:/Users/Artor/Documents/GitHub/SigurLogViewer/syntaxhighlighter.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/QSyntaxHighlighter \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qsyntaxhighlighter.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qtextobject.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/QTextCharFormat \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qtextformat.h \
+ C:/Users/Artor/Documents/GitHub/SigurLogViewer/linenumberarea.h \
  C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\EWIEGA46WW/moc_mainwindow.cpp \
  C:/Users/Artor/Documents/GitHub/SigurLogViewer/mainwindow.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QMainWindow \
@@ -464,17 +496,12 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6
  C:/Qt/6.8.3/mingw_64/include/QtCore/qitemselectionmodel.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qstyleoption.h \
- C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractspinbox.h \
- C:/Qt/6.8.3/mingw_64/include/QtGui/qvalidator.h \
- C:/Qt/6.8.3/mingw_64/include/QtCore/qregularexpression.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qslider.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractslider.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qstyle.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtabbar.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qrubberband.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtreewidgetitemiterator.h \
- C:/Qt/6.8.3/mingw_64/include/QtWidgets/QLineEdit \
- C:/Qt/6.8.3/mingw_64/include/QtWidgets/qlineedit.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QSplitter \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qsplitter.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QMenuBar \
@@ -482,20 +509,8 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qmenu.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QStatusBar \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qstatusbar.h \
- C:/Qt/6.8.3/mingw_64/include/QtWidgets/QLabel \
- C:/Qt/6.8.3/mingw_64/include/QtWidgets/qlabel.h \
- C:/Qt/6.8.3/mingw_64/include/QtGui/qpicture.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/QShortcut \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qshortcut.h \
- C:/Qt/6.8.3/mingw_64/include/QtWidgets/QPushButton \
- C:/Qt/6.8.3/mingw_64/include/QtWidgets/qpushbutton.h \
- C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractbutton.h \
- C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDateTimeEdit \
- C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdatetimeedit.h \
- C:/Qt/6.8.3/mingw_64/include/QtCore/qtimezone.h \
- C:/Qt/6.8.3/mingw_64/include/QtCore/qdatetime.h \
- C:/Qt/6.8.3/mingw_64/include/QtWidgets/QProgressBar \
- C:/Qt/6.8.3/mingw_64/include/QtWidgets/qprogressbar.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTabWidget \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtabwidget.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDockWidget \
@@ -504,5 +519,6 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtextbrowser.h \
  C:/Users/Artor/Documents/GitHub/SigurLogViewer/logtab.h \
  C:/Users/Artor/Documents/GitHub/SigurLogViewer/fileloader.h \
+ C:/Users/Artor/Documents/GitHub/SigurLogViewer/filesplitter.h \
  C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\EWIEGA46WW/moc_syntaxhighlighter.cpp \
  C:/Users/Artor/Documents/GitHub/SigurLogViewer/syntaxhighlighter.h

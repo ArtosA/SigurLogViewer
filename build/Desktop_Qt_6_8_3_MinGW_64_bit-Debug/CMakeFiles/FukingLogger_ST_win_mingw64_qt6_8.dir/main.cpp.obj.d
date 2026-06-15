@@ -487,6 +487,11 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/main.cpp.obj: \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qtextformat.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QRegularExpression \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qregularexpression.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\linenumberarea.h \
+ C:/Qt/6.8.3/mingw_64/include/QtGui/QPainter \
+ C:/Qt/6.8.3/mingw_64/include/QtGui/qpainter.h \
+ C:/Qt/6.8.3/mingw_64/include/QtGui/QTextBlock \
+ C:/Qt/6.8.3/mingw_64/include/QtGui/qtextobject.h \
  C:\Users\Artor\Documents\GitHub\SigurLogViewer\logparser.h \
  C:\Users\Artor\Documents\GitHub\SigurLogViewer\fileloader.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QThread \
@@ -498,5 +503,12 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/main.cpp.obj: \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/condition_variable \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_futex.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\filesplitter.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDialog \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QRadioButton \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qradiobutton.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QSpinBox \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qspinbox.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QApplication \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qapplication.h
