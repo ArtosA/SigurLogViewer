@@ -143,13 +143,45 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/syntaxhighlighter.cpp.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/syntaxhighlighter.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Artor\Documents\GitHub\SigurLogViewer\syntaxhighlighter.cpp -o CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\syntaxhighlighter.cpp.s
 
+CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/fileloader.cpp.obj: CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/flags.make
+CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/fileloader.cpp.obj: CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/includes_CXX.rsp
+CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/fileloader.cpp.obj: C:/Users/Artor/Documents/GitHub/SigurLogViewer/fileloader.cpp
+CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/fileloader.cpp.obj: CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/fileloader.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/fileloader.cpp.obj -MF CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\fileloader.cpp.obj.d -o CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\fileloader.cpp.obj -c C:\Users\Artor\Documents\GitHub\SigurLogViewer\fileloader.cpp
+
+CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/fileloader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/fileloader.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Artor\Documents\GitHub\SigurLogViewer\fileloader.cpp > CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\fileloader.cpp.i
+
+CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/fileloader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/fileloader.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Artor\Documents\GitHub\SigurLogViewer\fileloader.cpp -o CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\fileloader.cpp.s
+
+CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logtab.cpp.obj: CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/flags.make
+CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logtab.cpp.obj: CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/includes_CXX.rsp
+CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logtab.cpp.obj: C:/Users/Artor/Documents/GitHub/SigurLogViewer/logtab.cpp
+CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logtab.cpp.obj: CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logtab.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logtab.cpp.obj -MF CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\logtab.cpp.obj.d -o CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\logtab.cpp.obj -c C:\Users\Artor\Documents\GitHub\SigurLogViewer\logtab.cpp
+
+CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logtab.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logtab.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Artor\Documents\GitHub\SigurLogViewer\logtab.cpp > CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\logtab.cpp.i
+
+CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logtab.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logtab.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Artor\Documents\GitHub\SigurLogViewer\logtab.cpp -o CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\logtab.cpp.s
+
 # Object files for target FukingLogger_ST_win_mingw64_qt6_8
 FukingLogger_ST_win_mingw64_qt6_8_OBJECTS = \
 "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6_8_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/main.cpp.obj" \
 "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/mainwindow.cpp.obj" \
 "CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logparser.cpp.obj" \
-"CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/syntaxhighlighter.cpp.obj"
+"CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/syntaxhighlighter.cpp.obj" \
+"CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/fileloader.cpp.obj" \
+"CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logtab.cpp.obj"
 
 # External object files for target FukingLogger_ST_win_mingw64_qt6_8
 FukingLogger_ST_win_mingw64_qt6_8_EXTERNAL_OBJECTS =
@@ -159,6 +191,8 @@ FukingLogger_ST_win_mingw64_qt6_8.exe: CMakeFiles/FukingLogger_ST_win_mingw64_qt
 FukingLogger_ST_win_mingw64_qt6_8.exe: CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/mainwindow.cpp.obj
 FukingLogger_ST_win_mingw64_qt6_8.exe: CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logparser.cpp.obj
 FukingLogger_ST_win_mingw64_qt6_8.exe: CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/syntaxhighlighter.cpp.obj
+FukingLogger_ST_win_mingw64_qt6_8.exe: CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/fileloader.cpp.obj
+FukingLogger_ST_win_mingw64_qt6_8.exe: CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logtab.cpp.obj
 FukingLogger_ST_win_mingw64_qt6_8.exe: CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/build.make
 FukingLogger_ST_win_mingw64_qt6_8.exe: C:/Qt/6.8.3/mingw_64/lib/libQt6Widgets.a
 FukingLogger_ST_win_mingw64_qt6_8.exe: C:/Qt/6.8.3/mingw_64/lib/libQt6Gui.a
@@ -167,7 +201,7 @@ FukingLogger_ST_win_mingw64_qt6_8.exe: C:/Qt/6.8.3/mingw_64/lib/libQt6EntryPoint
 FukingLogger_ST_win_mingw64_qt6_8.exe: CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/linkLibs.rsp
 FukingLogger_ST_win_mingw64_qt6_8.exe: CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/objects1.rsp
 FukingLogger_ST_win_mingw64_qt6_8.exe: CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable FukingLogger_ST_win_mingw64_qt6_8.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Artor\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable FukingLogger_ST_win_mingw64_qt6_8.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -12,10 +12,13 @@
 #include <QShortcut>
 #include <QPushButton>
 #include <QDateTimeEdit>
+#include <QProgressBar>
+#include <QTabWidget>
 
+#include "logtab.h"
 #include "syntaxhighlighter.h"
 #include "logparser.h"
-
+#include "fileloader.h"
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -32,6 +35,13 @@ private slots:
     void onFilterChanged();
     void onTimeFilterApply();
     void onTimeFilterReset();
+    void onLoadingProgress(int percent);
+    void onLoadingFinished(const QString &content,
+                           const QVector<LogEntry> &entries,
+                           LogFormat format);
+    void onLoadingFailed(const QString &error);
+    void onTabChanged(int index);
+    void onTabClosed(int index);
 
 private:
     void setupUI();
@@ -39,37 +49,36 @@ private:
     void setupStatusBar();
     void setupConnections();
     void populateTree();
+    void applyFilter();
+
+    LogTab* currentTab();  // получить активную вкладку
 
     // виджеты
-    QPlainTextEdit *m_logViewer;
+    QTabWidget     *m_tabWidget;     // вкладки
     QTreeWidget    *m_treePanel;
     QLineEdit      *m_searchField;
     QSplitter      *m_splitter;
     QLabel         *m_statusLabel;
-
-    // логика
-    LogParser          m_parser;
-    QVector<LogEntry>  m_entries;
-    QString            m_currentFile;
-
-    //подстветка синтаксиса
-    SyntaxHighlighter *m_highlighter;
-
-    QVector<int> m_searchResults;  // номера блоков с совпадениями
-    int m_searchIndex;             // текущая позиция в результатах
 
     QPushButton *m_filterInfo;
     QPushButton *m_filterWarn;
     QPushButton *m_filterError;
     QPushButton *m_filterOther;
 
-    void applyFilter();
-    QString m_rawContent;  // оригинальный текст файла
-
     QDateTimeEdit *m_timeFrom;
     QDateTimeEdit *m_timeTo;
     QPushButton   *m_timeApply;
     QPushButton   *m_timeReset;
+
+    FileLoader    *m_fileLoader;
+    QProgressBar  *m_progressBar;
+
+    // поиск
+    QVector<int> m_searchResults;
+    int m_searchIndex;
+
+    // логика
+    LogParser m_parser;
 };
 
 #endif // MAINWINDOW_H

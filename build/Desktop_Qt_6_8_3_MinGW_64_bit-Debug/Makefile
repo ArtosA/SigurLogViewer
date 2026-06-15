@@ -223,6 +223,30 @@ FukingLogger_ST_win_mingw64_qt6_8_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\build.make CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6_8_autogen/mocs_compilation.cpp.s
 .PHONY : FukingLogger_ST_win_mingw64_qt6_8_autogen/mocs_compilation.cpp.s
 
+fileloader.obj: fileloader.cpp.obj
+.PHONY : fileloader.obj
+
+# target to build an object file
+fileloader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\build.make CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/fileloader.cpp.obj
+.PHONY : fileloader.cpp.obj
+
+fileloader.i: fileloader.cpp.i
+.PHONY : fileloader.i
+
+# target to preprocess a source file
+fileloader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\build.make CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/fileloader.cpp.i
+.PHONY : fileloader.cpp.i
+
+fileloader.s: fileloader.cpp.s
+.PHONY : fileloader.s
+
+# target to generate assembly for a file
+fileloader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\build.make CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/fileloader.cpp.s
+.PHONY : fileloader.cpp.s
+
 logparser.obj: logparser.cpp.obj
 .PHONY : logparser.obj
 
@@ -246,6 +270,30 @@ logparser.s: logparser.cpp.s
 logparser.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\build.make CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logparser.cpp.s
 .PHONY : logparser.cpp.s
+
+logtab.obj: logtab.cpp.obj
+.PHONY : logtab.obj
+
+# target to build an object file
+logtab.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\build.make CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logtab.cpp.obj
+.PHONY : logtab.cpp.obj
+
+logtab.i: logtab.cpp.i
+.PHONY : logtab.i
+
+# target to preprocess a source file
+logtab.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\build.make CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logtab.cpp.i
+.PHONY : logtab.cpp.i
+
+logtab.s: logtab.cpp.s
+.PHONY : logtab.s
+
+# target to generate assembly for a file
+logtab.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FukingLogger_ST_win_mingw64_qt6_8.dir\build.make CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/logtab.cpp.s
+.PHONY : logtab.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -337,9 +385,15 @@ help:
 	@echo ... FukingLogger_ST_win_mingw64_qt6_8_autogen/mocs_compilation.obj
 	@echo ... FukingLogger_ST_win_mingw64_qt6_8_autogen/mocs_compilation.i
 	@echo ... FukingLogger_ST_win_mingw64_qt6_8_autogen/mocs_compilation.s
+	@echo ... fileloader.obj
+	@echo ... fileloader.i
+	@echo ... fileloader.s
 	@echo ... logparser.obj
 	@echo ... logparser.i
 	@echo ... logparser.s
+	@echo ... logtab.obj
+	@echo ... logtab.i
+	@echo ... logtab.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -459,6 +459,22 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/main.cpp.obj: \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qtimezone.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qdatetime.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qcalendar.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QProgressBar \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qprogressbar.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTabWidget \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtabwidget.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\logtab.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QWidget \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qwidget.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/QVector \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qvector.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/QString \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qstring.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\logentry.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/QDateTime \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qdatetime.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/QStringList \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qstringlist.h \
  C:\Users\Artor\Documents\GitHub\SigurLogViewer\syntaxhighlighter.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/QSyntaxHighlighter \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qsyntaxhighlighter.h \
@@ -468,14 +484,15 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/main.cpp.obj: \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QRegularExpression \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qregularexpression.h \
  C:\Users\Artor\Documents\GitHub\SigurLogViewer\logparser.h \
- C:\Users\Artor\Documents\GitHub\SigurLogViewer\logentry.h \
- C:/Qt/6.8.3/mingw_64/include/QtCore/QString \
- C:/Qt/6.8.3/mingw_64/include/QtCore/qstring.h \
- C:/Qt/6.8.3/mingw_64/include/QtCore/QDateTime \
- C:/Qt/6.8.3/mingw_64/include/QtCore/qdatetime.h \
- C:/Qt/6.8.3/mingw_64/include/QtCore/QStringList \
- C:/Qt/6.8.3/mingw_64/include/QtCore/qstringlist.h \
- C:/Qt/6.8.3/mingw_64/include/QtCore/QVector \
- C:/Qt/6.8.3/mingw_64/include/QtCore/qvector.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\fileloader.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/QThread \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qthread.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/future \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/mutex \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_mutex.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_lock.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/condition_variable \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_futex.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QApplication \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qapplication.h

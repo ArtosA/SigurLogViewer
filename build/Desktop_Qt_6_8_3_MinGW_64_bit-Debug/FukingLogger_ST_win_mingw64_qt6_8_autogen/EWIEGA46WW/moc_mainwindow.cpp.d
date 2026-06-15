@@ -9,6 +9,7 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/6.8.3/mingw_64/include/QtCore/QSizeF \
   C:/Qt/6.8.3/mingw_64/include/QtCore/QString \
   C:/Qt/6.8.3/mingw_64/include/QtCore/QStringList \
+  C:/Qt/6.8.3/mingw_64/include/QtCore/QThread \
   C:/Qt/6.8.3/mingw_64/include/QtCore/QVector \
   C:/Qt/6.8.3/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/q20iterator.h \
@@ -129,6 +130,7 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/6.8.3/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qtenvironmentvariables.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qtextstream.h \
+  C:/Qt/6.8.3/mingw_64/include/QtCore/qthread.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qtimezone.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qtmetamacros.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qtnoop.h \
@@ -209,10 +211,13 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QMainWindow \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QMenuBar \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QPlainTextEdit \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QProgressBar \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QPushButton \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QSplitter \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QStatusBar \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTabWidget \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTreeWidget \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QWidget \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractbutton.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractitemview.h \
@@ -227,6 +232,7 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qmenu.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qmenubar.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qplaintextedit.h \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qprogressbar.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qpushbutton.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qrubberband.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qsizepolicy.h \
@@ -257,6 +263,7 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h \
+  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_futex.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
@@ -303,6 +310,8 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_function.h \
+  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_mutex.h \
+  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
@@ -329,6 +338,7 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h \
+  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_lock.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_map.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
@@ -343,6 +353,7 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
+  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/condition_variable \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
@@ -361,6 +372,7 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/functional \
+  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/future \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator \
@@ -368,6 +380,7 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/map \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory \
+  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/mutex \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional \
@@ -451,6 +464,8 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
+  C:/Users/Artor/Documents/GitHub/SigurLogViewer/fileloader.h \
   C:/Users/Artor/Documents/GitHub/SigurLogViewer/logentry.h \
   C:/Users/Artor/Documents/GitHub/SigurLogViewer/logparser.h \
+  C:/Users/Artor/Documents/GitHub/SigurLogViewer/logtab.h \
   C:/Users/Artor/Documents/GitHub/SigurLogViewer/syntaxhighlighter.h
