@@ -209,6 +209,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6
   C:/Qt/6.8.3/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDateTimeEdit \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDockWidget \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QLabel \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QLineEdit \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QMainWindow \
@@ -219,6 +220,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QSplitter \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QStatusBar \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTabWidget \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTextBrowser \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTreeWidget \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QWidget \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractbutton.h \
@@ -228,6 +230,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractslider.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractspinbox.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdatetimeedit.h \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdockwidget.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qframe.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qlabel.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qlineedit.h \
@@ -246,6 +249,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qstyleoption.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtabbar.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtabwidget.h \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtextbrowser.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtextedit.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtreeview.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtreewidget.h \
@@ -1868,6 +1872,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/main.cpp.obj: C:/Users/Artor/Do
   C:/Qt/6.8.3/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QApplication \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDateTimeEdit \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDockWidget \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QLabel \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QLineEdit \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QMainWindow \
@@ -1878,6 +1883,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/main.cpp.obj: C:/Users/Artor/Do
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QSplitter \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QStatusBar \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTabWidget \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTextBrowser \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTreeWidget \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QWidget \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractbutton.h \
@@ -1888,6 +1894,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/main.cpp.obj: C:/Users/Artor/Do
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractspinbox.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qapplication.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdatetimeedit.h \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdockwidget.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qframe.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qlabel.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qlineedit.h \
@@ -1906,6 +1913,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/main.cpp.obj: C:/Users/Artor/Do
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qstyleoption.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtabbar.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtabwidget.h \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtextbrowser.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtextedit.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtreeview.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtreewidget.h \
@@ -2362,6 +2370,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/mainwindow.cpp.obj: C:/Users/Ar
   C:/Qt/6.8.3/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDateTimeEdit \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDockWidget \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QFileDialog \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QHBoxLayout \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QLabel \
@@ -2375,6 +2384,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/mainwindow.cpp.obj: C:/Users/Ar
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QSplitter \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QStatusBar \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTabWidget \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTextBrowser \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTreeWidget \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QVBoxLayout \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QWidget \
@@ -2388,6 +2398,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/mainwindow.cpp.obj: C:/Users/Ar
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdatetimeedit.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdockwidget.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qfiledialog.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qframe.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qgridlayout.h \
@@ -2411,6 +2422,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/mainwindow.cpp.obj: C:/Users/Ar
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qstyleoption.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtabbar.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtabwidget.h \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtextbrowser.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtextedit.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtreeview.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtreewidget.h \
@@ -3174,13 +3186,13 @@ C:/Qt/6.8.3/mingw_64/include/QtCore/qcontiguouscache.h:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/stdarg.h:
 
-C:/Qt/6.8.3/mingw_64/include/QtCore/QThread:
-
-C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype:
-
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/legendre_function.tcc:
+
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype:
+
+C:/Qt/6.8.3/mingw_64/include/QtCore/QThread:
 
 C:/Qt/6.8.3/mingw_64/include/QtCore/q20iterator.h:
 
@@ -3327,6 +3339,8 @@ C:/Qt/6.8.3/mingw_64/include/QtCore/qflags.h:
 C:/Qt/6.8.3/mingw_64/include/QtCore/qfunctionaltools_impl.h:
 
 C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDateTimeEdit:
+
+C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdockwidget.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_raw_storage_iter.h:
 
@@ -3554,8 +3568,6 @@ C:/Qt/6.8.3/mingw_64/include/QtCore/qtmochelpers.h:
 
 C:/Qt/6.8.3/mingw_64/include/QtGui/qwindowdefs.h:
 
-C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/filesystem:
-
 C:/Qt/6.8.3/mingw_64/include/QtCore/qtnoop.h:
 
 C:/Qt/6.8.3/mingw_64/include/QtCore/qtpreprocessorsupport.h:
@@ -3706,6 +3718,10 @@ C:/Qt/6.8.3/mingw_64/include/QtGui/qvectornd.h:
 
 C:/Qt/6.8.3/mingw_64/include/QtGui/qwindowdefs_win.h:
 
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h:
+
+C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDockWidget:
+
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector:
 
 C:/Qt/6.8.3/mingw_64/include/QtWidgets/QLabel:
@@ -3729,6 +3745,8 @@ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QPushButton:
 C:/Qt/6.8.3/mingw_64/include/QtWidgets/QSplitter:
 
 C:/Qt/6.8.3/mingw_64/include/QtWidgets/QStatusBar:
+
+C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTextBrowser:
 
 C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTreeWidget:
 
@@ -3809,6 +3827,8 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/syntaxhighlighter.h:
 C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtabwidget.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits:
+
+C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtextbrowser.h:
 
 C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtreeview.h:
 
@@ -4142,8 +4162,6 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_p
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h:
 
-C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h:
-
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc:
@@ -4151,6 +4169,8 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostr
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt:
+
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/filesystem:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream:
 

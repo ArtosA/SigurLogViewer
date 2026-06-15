@@ -12,6 +12,7 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
     setupUI();
+    setupStatsDock();
     setupMenuBar();
     setupStatusBar();
     setupConnections();
@@ -154,9 +155,11 @@ void MainWindow::setupMenuBar()
     QAction *exitAction = fileMenu->addAction("Выход");
     exitAction->setShortcut(QKeySequence("Ctrl+Q"));
     connect(exitAction, &QAction::triggered, this, &QWidget::close);
+
+    // меню Вид
+    QMenu *viewMenu = menuBar()->addMenu("Вид");
+    viewMenu->addAction(m_statsDock->toggleViewAction());
 }
-
-
 
 void MainWindow::openFile()
 {
@@ -589,6 +592,8 @@ void MainWindow::onTabChanged(int index)
         m_timeTo->setDateTime(maxTime);
     }
 
+    updateStatistics();
+
     // обновляем статус
     QString formatName;
     switch (tab->format) {
@@ -614,5 +619,155 @@ void MainWindow::onTabClosed(int index)
     if (m_tabWidget->count() == 0) {
         m_treePanel->clear();
         m_statusLabel->setText("Готово");
+         m_statsView->setHtml("<p style='color:#888'>Нет данных</p>");
     }
+}
+
+void MainWindow::setupStatsDock()
+{
+    m_statsDock = new QDockWidget("Статистика", this);
+    m_statsDock->setAllowedAreas(Qt::RightDockWidgetArea | Qt::LeftDockWidgetArea);
+
+    m_statsView = new QTextBrowser(this);
+    m_statsView->setOpenLinks(false);
+    m_statsView->setFont(QFont("Consolas", 10));
+    m_statsView->setMinimumWidth(250);
+
+    m_statsDock->setWidget(m_statsView);
+    addDockWidget(Qt::RightDockWidgetArea, m_statsDock);
+}
+void MainWindow::updateStatistics()
+{
+    LogTab *tab = currentTab();
+    if (!tab) {
+        m_statsView->setHtml("<p style='color:#888'>Нет данных</p>");
+        return;
+    }
+
+    const auto& entries = tab->entries;
+
+    // счётчики по уровням
+    int countInfo = 0, countWarn = 0, countError = 0, countOther = 0;
+
+    // источники с количеством
+    QMap<QString, int> sourceCounts;
+
+    // временной диапазон
+    QDateTime minTime, maxTime;
+
+    // подсчёт stacktrace
+    int totalStacktrace = 0;
+
+    for (const auto& entry : entries) {
+        switch (entry.level) {
+        case LogLevel::Info:    countInfo++; break;
+        case LogLevel::Warning: countWarn++; break;
+        case LogLevel::Error:   countError++; break;
+        default:                countOther++; break;
+        }
+
+        QString source = entry.source;
+        if (!source.isEmpty()) {
+            int lastDot = source.lastIndexOf('.');
+            if (lastDot != -1)
+                source = source.mid(lastDot + 1);
+            sourceCounts[source]++;
+        }
+
+        if (entry.timestamp.isValid()) {
+            if (!minTime.isValid() || entry.timestamp < minTime)
+                minTime = entry.timestamp;
+            if (!maxTime.isValid() || entry.timestamp > maxTime)
+                maxTime = entry.timestamp;
+        }
+
+        totalStacktrace += entry.stacktrace.size();
+    }
+
+    // топ-5 источников
+    QVector<QPair<QString, int>> topSources;
+    for (auto it = sourceCounts.begin(); it != sourceCounts.end(); ++it)
+        topSources.append({it.key(), it.value()});
+
+    std::sort(topSources.begin(), topSources.end(),
+              [](const QPair<QString,int> &a, const QPair<QString,int> &b) {
+                  return a.second > b.second;
+              });
+
+    // формируем HTML
+    QString html;
+    html += "<style>"
+            "body { color: #CCC; }"
+            "h3 { color: #AAA; margin: 12px 0 6px 0; }"
+            ".info  { color: #6BCB77; }"
+            ".warn  { color: #FFD93D; }"
+            ".error { color: #FF6B6B; }"
+            ".muted { color: #888; }"
+            "table { width: 100%; border-collapse: collapse; }"
+            "td { padding: 2px 6px; }"
+            "td.num { text-align: right; }"
+            "</style>";
+
+    // файл
+    html += "<h3>Файл</h3>";
+    html += "<table>";
+    html += "<tr><td>Имя</td><td class='num'>" + QFileInfo(tab->filePath).fileName() + "</td></tr>";
+
+    QString formatName;
+    switch (tab->format) {
+    case LogFormat::Quarkus:         formatName = "Quarkus"; break;
+    case LogFormat::SpringBoot:      formatName = "Spring Boot"; break;
+    case LogFormat::SimpleSemicolon: formatName = "Simple"; break;
+    default:                         formatName = "Unknown"; break;
+    }
+    html += "<tr><td>Формат</td><td class='num'>" + formatName + "</td></tr>";
+    html += "<tr><td>Записей</td><td class='num'>" + QString::number(entries.size()) + "</td></tr>";
+    html += "<tr><td>Stacktrace</td><td class='num'>" + QString::number(totalStacktrace) + " строк</td></tr>";
+    html += "</table>";
+
+    // время
+    html += "<h3>Временной диапазон</h3>";
+    if (minTime.isValid()) {
+        html += "<table>";
+        html += "<tr><td>Начало</td><td class='num'>" + minTime.toString("HH:mm:ss.zzz") + "</td></tr>";
+        html += "<tr><td>Конец</td><td class='num'>" + maxTime.toString("HH:mm:ss.zzz") + "</td></tr>";
+
+        qint64 durationSec = minTime.secsTo(maxTime);
+        int hours = durationSec / 3600;
+        int mins = (durationSec % 3600) / 60;
+        int secs = durationSec % 60;
+        html += "<tr><td>Длительность</td><td class='num'>" +
+                QString::number(hours) + "ч " +
+                QString::number(mins) + "м " +
+                QString::number(secs) + "с</td></tr>";
+        html += "</table>";
+    }
+
+    // уровни
+    html += "<h3>По уровням</h3>";
+    html += "<table>";
+    html += "<tr><td class='info'>INFO</td><td class='num'>" + QString::number(countInfo) + "</td></tr>";
+    html += "<tr><td class='warn'>WARNING</td><td class='num'>" + QString::number(countWarn) + "</td></tr>";
+    html += "<tr><td class='error'>ERROR</td><td class='num'>" + QString::number(countError) + "</td></tr>";
+    html += "<tr><td class='muted'>OTHER</td><td class='num'>" + QString::number(countOther) + "</td></tr>";
+    html += "</table>";
+
+    // процент ошибок
+    if (entries.size() > 0) {
+        double errorPercent = (double)(countError + countWarn) / entries.size() * 100.0;
+        html += "<p style='margin-top:6px;'>Проблемных: <b>" +
+                QString::number(errorPercent, 'f', 1) + "%</b></p>";
+    }
+
+    // топ источников
+    html += "<h3>Топ источников</h3>";
+    html += "<table>";
+    int topLimit = qMin(topSources.size(), 10);
+    for (int i = 0; i < topLimit; i++) {
+        html += "<tr><td>" + topSources[i].first + "</td><td class='num'>" +
+                QString::number(topSources[i].second) + "</td></tr>";
+    }
+    html += "</table>";
+
+    m_statsView->setHtml(html);
 }

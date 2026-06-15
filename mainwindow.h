@@ -14,6 +14,8 @@
 #include <QDateTimeEdit>
 #include <QProgressBar>
 #include <QTabWidget>
+#include <QDockWidget>
+#include <QTextBrowser>
 
 #include "logtab.h"
 #include "syntaxhighlighter.h"
@@ -42,6 +44,7 @@ private slots:
     void onLoadingFailed(const QString &error);
     void onTabChanged(int index);
     void onTabClosed(int index);
+    void updateStatistics();
 
 private:
     void setupUI();
@@ -52,6 +55,7 @@ private:
     void applyFilter();
 
     LogTab* currentTab();  // получить активную вкладку
+    void setupStatsDock();
 
     // виджеты
     QTabWidget     *m_tabWidget;     // вкладки
@@ -79,6 +83,10 @@ private:
 
     // логика
     LogParser m_parser;
+
+    //statistika
+    QDockWidget   *m_statsDock;
+    QTextBrowser  *m_statsView;
 };
 
 #endif // MAINWINDOW_H

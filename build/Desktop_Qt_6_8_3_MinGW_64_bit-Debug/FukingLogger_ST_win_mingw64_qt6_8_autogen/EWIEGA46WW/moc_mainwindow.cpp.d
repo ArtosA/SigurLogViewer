@@ -206,6 +206,7 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/6.8.3/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDateTimeEdit \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDockWidget \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QLabel \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QLineEdit \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QMainWindow \
@@ -216,6 +217,7 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QSplitter \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QStatusBar \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTabWidget \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTextBrowser \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTreeWidget \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QWidget \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractbutton.h \
@@ -225,6 +227,7 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractslider.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractspinbox.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdatetimeedit.h \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdockwidget.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qframe.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qlabel.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qlineedit.h \
@@ -243,6 +246,7 @@ C:/Users/Artor/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qstyleoption.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtabbar.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtabwidget.h \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtextbrowser.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtextedit.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtreeview.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtreewidget.h \

@@ -497,6 +497,10 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/mainwindow.cpp.obj: \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qprogressbar.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTabWidget \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtabwidget.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDockWidget \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdockwidget.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTextBrowser \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtextbrowser.h \
  C:\Users\Artor\Documents\GitHub\SigurLogViewer\logtab.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QWidget \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qwidget.h \
