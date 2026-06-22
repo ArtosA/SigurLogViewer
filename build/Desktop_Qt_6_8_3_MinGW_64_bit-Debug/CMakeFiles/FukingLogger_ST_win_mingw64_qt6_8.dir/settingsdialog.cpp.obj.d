@@ -420,4 +420,21 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/settingsdialog.cpp.obj: \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDialogButtonBox \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QCheckBox \
- C:/Qt/6.8.3/mingw_64/include/QtWidgets/qcheckbox.h
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qcheckbox.h \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\styles.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/QString \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qstring.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QApplication \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qapplication.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qcoreapplication.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qcoreevent.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qdeadlinetimer.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qelapsedtimer.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qeventloop.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qnativeinterface.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
+ C:/Qt/6.8.3/mingw_64/include/QtGui/qguiapplication.h \
+ C:/Qt/6.8.3/mingw_64/include/QtGui/qinputmethod.h \
+ C:/Qt/6.8.3/mingw_64/include/QtGui/qguiapplication_platform.h \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QStyle \
+ C:/Qt/6.8.3/mingw_64/include/QtWidgets/qstyle.h

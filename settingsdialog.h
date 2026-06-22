@@ -55,6 +55,7 @@ private:
 
     QPushButton *m_darkThemeBtn;
     bool m_darkTheme;
+    bool m_originalDarkTheme;
 };
 
 #endif // SETTINGSDIALOG_H

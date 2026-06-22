@@ -552,6 +552,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/mainwindow.cpp.obj: \
  C:\Users\Admin\Documents\GitHub\SigurLogViewer\filesplitter.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QRadioButton \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qradiobutton.h \
+ C:\Users\Admin\Documents\GitHub\SigurLogViewer\styles.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QVBoxLayout \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qboxlayout.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qlayout.h \

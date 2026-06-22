@@ -528,6 +528,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6
  C:/Users/Admin/Documents/GitHub/SigurLogViewer/logtab.h \
  C:/Users/Admin/Documents/GitHub/SigurLogViewer/fileloader.h \
  C:/Users/Admin/Documents/GitHub/SigurLogViewer/filesplitter.h \
+ C:/Users/Admin/Documents/GitHub/SigurLogViewer/styles.h \
  C:\Users\Admin\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\EWIEGA46WW/moc_settingsdialog.cpp \
  C:/Users/Admin/Documents/GitHub/SigurLogViewer/settingsdialog.h \
  C:\Users\Admin\Documents\GitHub\SigurLogViewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\FukingLogger_ST_win_mingw64_qt6_8_autogen\EWIEGA46WW/moc_syntaxhighlighter.cpp \

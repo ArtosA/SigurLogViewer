@@ -854,104 +854,23 @@ void MainWindow::openSettings()
 
 void MainWindow::applySettings()
 {
-    QSettings settings("SigurTools", "LogViewer");
+    QSettings s("SigurTools", "LogViewer");
 
-    // шрифт
-    QString family = settings.value("font/family", "Consolas").toString();
-    int size = settings.value("font/size", 10).toInt();
+    QString family = s.value("font/family", "Consolas").toString();
+    int size = s.value("font/size", 10).toInt();
     QFont font(family, size);
 
     for (int i = 0; i < m_tabWidget->count(); i++) {
         LogTab *tab = qobject_cast<LogTab*>(m_tabWidget->widget(i));
         if (tab) {
             tab->logViewer->setFont(font);
+            delete tab->highlighter;
+            tab->highlighter = new SyntaxHighlighter(tab->logViewer->document());
         }
     }
 
-    // цвета подсветки
-    QColor cInfo(settings.value("colors/info", "#6BCB77").toString());
-    QColor cWarn(settings.value("colors/warning", "#FFD93D").toString());
-    QColor cError(settings.value("colors/error", "#FF6B6B").toString());
-    QColor cTimestamp(settings.value("colors/timestamp", "#4FC3F7").toString());
-    QColor cStacktrace(settings.value("colors/stacktrace", "#777777").toString());
+    m_statsView->setFont(font);
 
-    for (int i = 0; i < m_tabWidget->count(); i++) {
-        LogTab *tab = qobject_cast<LogTab*>(m_tabWidget->widget(i));
-        if (tab && tab->highlighter) {
-            tab->highlighter->updateColors(cInfo, cWarn, cError, cTimestamp, cStacktrace);
-        }
-    }
-
-    // тема
-    bool dark = settings.value("theme/dark", true).toBool();
-
-    if (dark) {
-        static_cast<QApplication*>(QCoreApplication::instance())->setStyleSheet(
-            "QMainWindow, QDialog { background-color: #1E1E1E; color: #CCC; }"
-            "QPlainTextEdit, QTextBrowser { background-color: #1E1E1E; color: #CCC; }"
-            "QTreeWidget { background-color: #252526; color: #CCC; }"
-            "QTreeWidget::item:selected { background-color: #264F78; }"
-            "QTreeWidget::item:hover { background-color: #2A2D2E; }"
-            "QTabWidget::pane { border: 1px solid #444; }"
-            "QTabBar::tab { background: #2D2D2D; color: #CCC; padding: 6px 16px; border: 1px solid #444; }"
-            "QTabBar::tab:selected { background: #1E1E1E; border-bottom: none; }"
-            "QTabBar::tab:hover { background: #3A3A3A; }"
-            "QMenuBar { background-color: #2D2D2D; color: #CCC; }"
-            "QMenuBar::item:selected { background-color: #3A3A3A; }"
-            "QMenu { background-color: #2D2D2D; color: #CCC; border: 1px solid #444; }"
-            "QMenu::item:selected { background-color: #264F78; }"
-            "QLineEdit { background-color: #333; color: #CCC; border: 1px solid #555; padding: 4px; }"
-            "QSpinBox, QDateTimeEdit { background-color: #333; color: #CCC; border: 1px solid #555; }"
-            "QPushButton { background-color: #333; color: #CCC; border: 1px solid #555; padding: 4px 12px; }"
-            "QPushButton:hover { background-color: #444; }"
-            "QPushButton:pressed { background-color: #555; }"
-            "QStatusBar { background-color: #007ACC; color: white; }"
-            "QDockWidget { color: #CCC; }"
-            "QDockWidget::title { background-color: #2D2D2D; padding: 6px; }"
-            "QSplitter::handle { background-color: #444; }"
-            "QHeaderView::section { background-color: #2D2D2D; color: #CCC; border: 1px solid #444; padding: 4px; }"
-            "QScrollBar:vertical { background: #1E1E1E; width: 12px; }"
-            "QScrollBar::handle:vertical { background: #555; border-radius: 4px; min-height: 20px; }"
-            "QScrollBar::handle:vertical:hover { background: #666; }"
-            "QScrollBar:horizontal { background: #1E1E1E; height: 12px; }"
-            "QScrollBar::handle:horizontal { background: #555; border-radius: 4px; min-width: 20px; }"
-            "QScrollBar::handle:horizontal:hover { background: #666; }"
-            "QProgressBar { border: 1px solid #555; border-radius: 3px; text-align: center; color: white; }"
-            "QProgressBar::chunk { background-color: #007ACC; }"
-            );
-    } else {
-        static_cast<QApplication*>(QCoreApplication::instance())->setStyleSheet(
-            "QMainWindow, QDialog { background-color: #F5F5F5; color: #333; }"
-            "QPlainTextEdit, QTextBrowser { background-color: #FFFFFF; color: #333; }"
-            "QTreeWidget { background-color: #FAFAFA; color: #333; }"
-            "QTreeWidget::item:selected { background-color: #CCE5FF; }"
-            "QTreeWidget::item:hover { background-color: #EEF2F5; }"
-            "QTabWidget::pane { border: 1px solid #CCC; }"
-            "QTabBar::tab { background: #E8E8E8; color: #333; padding: 6px 16px; border: 1px solid #CCC; }"
-            "QTabBar::tab:selected { background: #FFFFFF; border-bottom: none; }"
-            "QTabBar::tab:hover { background: #DDD; }"
-            "QMenuBar { background-color: #E8E8E8; color: #333; }"
-            "QMenuBar::item:selected { background-color: #CCE5FF; }"
-            "QMenu { background-color: #FFFFFF; color: #333; border: 1px solid #CCC; }"
-            "QMenu::item:selected { background-color: #CCE5FF; }"
-            "QLineEdit { background-color: #FFF; color: #333; border: 1px solid #CCC; padding: 4px; }"
-            "QSpinBox, QDateTimeEdit { background-color: #FFF; color: #333; border: 1px solid #CCC; }"
-            "QPushButton { background-color: #E8E8E8; color: #333; border: 1px solid #CCC; padding: 4px 12px; }"
-            "QPushButton:hover { background-color: #DDD; }"
-            "QPushButton:pressed { background-color: #CCC; }"
-            "QStatusBar { background-color: #007ACC; color: white; }"
-            "QDockWidget { color: #333; }"
-            "QDockWidget::title { background-color: #E8E8E8; padding: 6px; }"
-            "QSplitter::handle { background-color: #CCC; }"
-            "QHeaderView::section { background-color: #E8E8E8; color: #333; border: 1px solid #CCC; padding: 4px; }"
-            "QScrollBar:vertical { background: #F0F0F0; width: 12px; }"
-            "QScrollBar::handle:vertical { background: #BBB; border-radius: 4px; min-height: 20px; }"
-            "QScrollBar::handle:vertical:hover { background: #999; }"
-            "QScrollBar:horizontal { background: #F0F0F0; height: 12px; }"
-            "QScrollBar::handle:horizontal { background: #BBB; border-radius: 4px; min-width: 20px; }"
-            "QScrollBar::handle:horizontal:hover { background: #999; }"
-            "QProgressBar { border: 1px solid #CCC; border-radius: 3px; text-align: center; }"
-            "QProgressBar::chunk { background-color: #007ACC; }"
-            );
-    }
+    bool dark = s.value("theme/dark", true).toBool();
+    qApp->setStyleSheet(dark ? Styles::darkTheme() : Styles::lightTheme());
 }

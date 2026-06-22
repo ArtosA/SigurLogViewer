@@ -23,6 +23,7 @@
 #include "logparser.h"
 #include "fileloader.h"
 #include "filesplitter.h"
+#include "styles.h"
 
 class MainWindow : public QMainWindow
 {

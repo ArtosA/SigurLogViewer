@@ -5,6 +5,9 @@
 #include <QColorDialog>
 #include <QDialogButtonBox>
 #include <QCheckBox>
+#include "styles.h"
+#include <QApplication>
+#include <QStyle>
 
 SettingsDialog::SettingsDialog(QWidget *parent)
     : QDialog(parent)
@@ -18,9 +21,8 @@ SettingsDialog::SettingsDialog(QWidget *parent)
     setWindowTitle("Настройки");
     setMinimumWidth(450);
 
-    // загружаем сохранённые настройки
     loadDefaults(*this);
-
+    m_originalDarkTheme = m_darkTheme;  // запоминаем для отмены
     setupUI();
 }
 
@@ -88,8 +90,15 @@ void SettingsDialog::setupUI()
     darkCheck->setChecked(m_darkTheme);
     connect(darkCheck, &QCheckBox::toggled, [this](bool checked) {
         m_darkTheme = checked;
-    });
+        qApp->setStyleSheet(checked ? Styles::darkTheme() : Styles::lightTheme());
 
+        // обновляем все дочерние виджеты
+        for (QWidget *w : findChildren<QWidget*>()) {
+            w->style()->unpolish(w);
+            w->style()->polish(w);
+            w->update();
+        }
+    });
     themeLayout->addWidget(darkCheck);
     mainLayout->addWidget(themeGroup);
 
@@ -102,7 +111,11 @@ void SettingsDialog::setupUI()
     QDialogButtonBox *buttonBox = new QDialogButtonBox(
         QDialogButtonBox::Ok | QDialogButtonBox::Cancel, this);
     connect(buttonBox, &QDialogButtonBox::accepted, this, &QDialog::accept);
-    connect(buttonBox, &QDialogButtonBox::rejected, this, &QDialog::reject);
+    connect(buttonBox, &QDialogButtonBox::rejected, [this]() {
+        // откатываем тему если отменили
+        qApp->setStyleSheet(m_originalDarkTheme ? Styles::darkTheme() : Styles::lightTheme());
+        reject();
+    });
 
     btnLayout->addWidget(resetBtn);
     btnLayout->addStretch();

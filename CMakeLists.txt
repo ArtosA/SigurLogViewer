@@ -27,6 +27,7 @@ qt_add_executable(FukingLogger_ST_win_mingw64_qt6_8
     linenumberarea.cpp
     settingsdialog.h
     settingsdialog.cpp
+    styles.h
 )
 
 target_link_libraries(FukingLogger_ST_win_mingw64_qt6_8

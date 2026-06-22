@@ -490,4 +490,5 @@ C:/Users/Admin/Documents/GitHub/SigurLogViewer/build/Desktop_Qt_6_8_3_MinGW_64_b
   C:/Users/Admin/Documents/GitHub/SigurLogViewer/logparser.h \
   C:/Users/Admin/Documents/GitHub/SigurLogViewer/logtab.h \
   C:/Users/Admin/Documents/GitHub/SigurLogViewer/settingsdialog.h \
+  C:/Users/Admin/Documents/GitHub/SigurLogViewer/styles.h \
   C:/Users/Admin/Documents/GitHub/SigurLogViewer/syntaxhighlighter.h

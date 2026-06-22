@@ -506,6 +506,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/FukingLogger_ST_win_mingw64_qt6
   C:/Users/Admin/Documents/GitHub/SigurLogViewer/logtab.h \
   C:/Users/Admin/Documents/GitHub/SigurLogViewer/mainwindow.h \
   C:/Users/Admin/Documents/GitHub/SigurLogViewer/settingsdialog.h \
+  C:/Users/Admin/Documents/GitHub/SigurLogViewer/styles.h \
   C:/Users/Admin/Documents/GitHub/SigurLogViewer/syntaxhighlighter.h \
   FukingLogger_ST_win_mingw64_qt6_8_autogen/EWIEGA46WW/moc_fileloader.cpp \
   FukingLogger_ST_win_mingw64_qt6_8_autogen/EWIEGA46WW/moc_filesplitter.cpp \
@@ -3085,6 +3086,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/main.cpp.obj: C:/Users/Admin/Do
   C:/Users/Admin/Documents/GitHub/SigurLogViewer/logtab.h \
   C:/Users/Admin/Documents/GitHub/SigurLogViewer/mainwindow.h \
   C:/Users/Admin/Documents/GitHub/SigurLogViewer/settingsdialog.h \
+  C:/Users/Admin/Documents/GitHub/SigurLogViewer/styles.h \
   C:/Users/Admin/Documents/GitHub/SigurLogViewer/syntaxhighlighter.h
 
 CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/mainwindow.cpp.obj: C:/Users/Admin/Documents/GitHub/SigurLogViewer/mainwindow.cpp \
@@ -3646,10 +3648,12 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/mainwindow.cpp.obj: C:/Users/Ad
   C:/Users/Admin/Documents/GitHub/SigurLogViewer/logtab.h \
   C:/Users/Admin/Documents/GitHub/SigurLogViewer/mainwindow.h \
   C:/Users/Admin/Documents/GitHub/SigurLogViewer/settingsdialog.h \
+  C:/Users/Admin/Documents/GitHub/SigurLogViewer/styles.h \
   C:/Users/Admin/Documents/GitHub/SigurLogViewer/syntaxhighlighter.h
 
 CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/settingsdialog.cpp.obj: C:/Users/Admin/Documents/GitHub/SigurLogViewer/settingsdialog.cpp \
   C:/Qt/6.8.3/mingw_64/include/QtCore/QSettings \
+  C:/Qt/6.8.3/mingw_64/include/QtCore/QString \
   C:/Qt/6.8.3/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/q20iterator.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/q20memory.h \
@@ -3682,10 +3686,16 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/settingsdialog.cpp.obj: C:/User
   C:/Qt/6.8.3/mingw_64/include/QtCore/qcontainerinfo.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qcontainertools_impl.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qcontiguouscache.h \
+  C:/Qt/6.8.3/mingw_64/include/QtCore/qcoreapplication.h \
+  C:/Qt/6.8.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
+  C:/Qt/6.8.3/mingw_64/include/QtCore/qcoreevent.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qdarwinhelpers.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qdatastream.h \
+  C:/Qt/6.8.3/mingw_64/include/QtCore/qdeadlinetimer.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qdebug.h \
+  C:/Qt/6.8.3/mingw_64/include/QtCore/qelapsedtimer.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qendian.h \
+  C:/Qt/6.8.3/mingw_64/include/QtCore/qeventloop.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qexceptionhandling.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qflags.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qfloat16.h \
@@ -3714,6 +3724,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/settingsdialog.cpp.obj: C:/User
   C:/Qt/6.8.3/mingw_64/include/QtCore/qmetatype.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qminmax.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qnamespace.h \
+  C:/Qt/6.8.3/mingw_64/include/QtCore/qnativeinterface.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qnumeric.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qobject.h \
   C:/Qt/6.8.3/mingw_64/include/QtCore/qobject_impl.h \
@@ -3787,8 +3798,11 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/settingsdialog.cpp.obj: C:/User
   C:/Qt/6.8.3/mingw_64/include/QtGui/qfontdatabase.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qfontinfo.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qfontmetrics.h \
+  C:/Qt/6.8.3/mingw_64/include/QtGui/qguiapplication.h \
+  C:/Qt/6.8.3/mingw_64/include/QtGui/qguiapplication_platform.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qicon.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qimage.h \
+  C:/Qt/6.8.3/mingw_64/include/QtGui/qinputmethod.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qpaintdevice.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qpalette.h \
@@ -3807,6 +3821,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/settingsdialog.cpp.obj: C:/User
   C:/Qt/6.8.3/mingw_64/include/QtGui/qvalidator.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.8.3/mingw_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QApplication \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QCheckBox \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QColorDialog \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDialog \
@@ -3817,11 +3832,13 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/settingsdialog.cpp.obj: C:/User
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QLabel \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QPushButton \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QSpinBox \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QStyle \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/QVBoxLayout \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractbutton.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractslider.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractspinbox.h \
+  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qapplication.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qboxlayout.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qcheckbox.h \
   C:/Qt/6.8.3/mingw_64/include/QtWidgets/qcolordialog.h \
@@ -4066,7 +4083,8 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/settingsdialog.cpp.obj: C:/User
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/Admin/Documents/GitHub/SigurLogViewer/settingsdialog.h
+  C:/Users/Admin/Documents/GitHub/SigurLogViewer/settingsdialog.h \
+  C:/Users/Admin/Documents/GitHub/SigurLogViewer/styles.h
 
 CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/syntaxhighlighter.cpp.obj: C:/Users/Admin/Documents/GitHub/SigurLogViewer/syntaxhighlighter.cpp \
   C:/Qt/6.8.3/mingw_64/include/QtCore/QList \
@@ -5553,6 +5571,8 @@ C:/Users/Admin/Documents/GitHub/SigurLogViewer/mainwindow.h:
 
 C:/Users/Admin/Documents/GitHub/SigurLogViewer/settingsdialog.h:
 
+C:/Users/Admin/Documents/GitHub/SigurLogViewer/styles.h:
+
 FukingLogger_ST_win_mingw64_qt6_8_autogen/EWIEGA46WW/moc_fileloader.cpp:
 
 FukingLogger_ST_win_mingw64_qt6_8_autogen/EWIEGA46WW/moc_logtab.cpp:
@@ -5642,6 +5662,8 @@ C:/Qt/6.8.3/mingw_64/include/QtWidgets/QCheckBox:
 C:/Qt/6.8.3/mingw_64/include/QtWidgets/QColorDialog:
 
 C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDialogButtonBox:
+
+C:/Qt/6.8.3/mingw_64/include/QtWidgets/QStyle:
 
 C:/Qt/6.8.3/mingw_64/include/QtWidgets/qcolordialog.h:
 
