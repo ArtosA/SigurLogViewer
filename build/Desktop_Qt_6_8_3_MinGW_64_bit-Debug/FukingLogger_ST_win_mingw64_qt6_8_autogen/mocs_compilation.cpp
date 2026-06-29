@@ -6,3 +6,4 @@
 #include "EWIEGA46WW/moc_mainwindow.cpp"
 #include "EWIEGA46WW/moc_settingsdialog.cpp"
 #include "EWIEGA46WW/moc_syntaxhighlighter.cpp"
+#include "EWIEGA46WW/moc_updatechecker.cpp"

@@ -1,6 +1,6 @@
 CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/main.cpp.obj: \
- C:\Users\Admin\Documents\GitHub\SigurLogViewer\main.cpp \
- C:\Users\Admin\Documents\GitHub\SigurLogViewer\mainwindow.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\main.cpp \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\mainwindow.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -467,7 +467,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/main.cpp.obj: \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdockwidget.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QTextBrowser \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtextbrowser.h \
- C:\Users\Admin\Documents\GitHub\SigurLogViewer\settingsdialog.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\settingsdialog.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDialog \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QFontComboBox \
@@ -479,19 +479,19 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/main.cpp.obj: \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qcolor.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QSettings \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qsettings.h \
- C:\Users\Admin\Documents\GitHub\SigurLogViewer\logtab.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\logtab.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QWidget \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qwidget.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QVector \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qvector.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QString \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qstring.h \
- C:\Users\Admin\Documents\GitHub\SigurLogViewer\logentry.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\logentry.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QDateTime \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qdatetime.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QStringList \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qstringlist.h \
- C:\Users\Admin\Documents\GitHub\SigurLogViewer\syntaxhighlighter.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\syntaxhighlighter.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/QSyntaxHighlighter \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qsyntaxhighlighter.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qtextobject.h \
@@ -499,13 +499,13 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/main.cpp.obj: \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qtextformat.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QRegularExpression \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qregularexpression.h \
- C:\Users\Admin\Documents\GitHub\SigurLogViewer\linenumberarea.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\linenumberarea.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/QPainter \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qpainter.h \
  C:/Qt/6.8.3/mingw_64/include/QtGui/QTextBlock \
  C:/Qt/6.8.3/mingw_64/include/QtGui/qtextobject.h \
- C:\Users\Admin\Documents\GitHub\SigurLogViewer\logparser.h \
- C:\Users\Admin\Documents\GitHub\SigurLogViewer\fileloader.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\logparser.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\fileloader.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QThread \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qthread.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/future \
@@ -515,9 +515,49 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/main.cpp.obj: \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/condition_variable \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_futex.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h \
- C:\Users\Admin\Documents\GitHub\SigurLogViewer\filesplitter.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\filesplitter.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QRadioButton \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qradiobutton.h \
- C:\Users\Admin\Documents\GitHub\SigurLogViewer\styles.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\styles.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\updatechecker.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/QObject \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/QNetworkAccessManager \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/qtnetwork-config.h \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/qtnetworkexports.h \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/qnetworkrequest.h \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/qhttpheaders.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/QSharedDataPointer \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qshareddata.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/QString \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/QUrl \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qurl.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/QVariant \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qvariant.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/q26numeric.h \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/QSslConfiguration \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/qsslconfiguration.h \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/qsslsocket.h \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/qtcpsocket.h \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/qabstractsocket.h \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/qhostaddress.h \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/qsslerror.h \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/qsslcertificate.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qcryptographichash.h \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/qssl.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/QFlags \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qflags.h \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/QMetaType \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qmetatype.h \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/QNetworkReply \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/qnetworkreply.h \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/QIODevice \
+ C:/Qt/6.8.3/mingw_64/include/QtCore/qiodevice.h \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/QNetworkRequest \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/qnetworkrequest.h \
+ C:/Qt/6.8.3/mingw_64/include/QtNetwork/QNetworkAccessManager \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QApplication \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qapplication.h

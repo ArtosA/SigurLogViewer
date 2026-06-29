@@ -1,6 +1,6 @@
 CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/linenumberarea.cpp.obj: \
- C:\Users\Admin\Documents\GitHub\SigurLogViewer\linenumberarea.cpp \
- C:\Users\Admin\Documents\GitHub\SigurLogViewer\linenumberarea.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\linenumberarea.cpp \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\linenumberarea.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QPlainTextEdit \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qplaintextedit.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \

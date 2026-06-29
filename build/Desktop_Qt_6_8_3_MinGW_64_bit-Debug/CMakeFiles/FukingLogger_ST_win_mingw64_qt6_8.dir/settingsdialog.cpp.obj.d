@@ -1,6 +1,6 @@
 CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/settingsdialog.cpp.obj: \
- C:\Users\Admin\Documents\GitHub\SigurLogViewer\settingsdialog.cpp \
- C:\Users\Admin\Documents\GitHub\SigurLogViewer\settingsdialog.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\settingsdialog.cpp \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\settingsdialog.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QDialog \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -421,7 +421,7 @@ CMakeFiles/FukingLogger_ST_win_mingw64_qt6_8.dir/settingsdialog.cpp.obj: \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QCheckBox \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/qcheckbox.h \
- C:\Users\Admin\Documents\GitHub\SigurLogViewer\styles.h \
+ C:\Users\Artor\Documents\GitHub\SigurLogViewer\styles.h \
  C:/Qt/6.8.3/mingw_64/include/QtCore/QString \
  C:/Qt/6.8.3/mingw_64/include/QtCore/qstring.h \
  C:/Qt/6.8.3/mingw_64/include/QtWidgets/QApplication \

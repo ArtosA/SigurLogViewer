@@ -24,6 +24,7 @@
 #include "fileloader.h"
 #include "filesplitter.h"
 #include "styles.h"
+#include "updatechecker.h"
 
 class MainWindow : public QMainWindow
 {
@@ -53,6 +54,10 @@ private slots:
     void openSettings();
     void applySettings();
 
+    void onUpdateAvailable(const QString &newVersion, const QString &downloadUrl, const QString &releaseNotes);
+    void onNoUpdate();
+    void onUpdateCheckFailed(const QString &error);
+    void checkForUpdates();
 
 private:
     void setupUI();
@@ -95,6 +100,9 @@ private:
     //statistika
     QDockWidget   *m_statsDock;
     QTextBrowser  *m_statsView;
+
+    UpdateChecker *m_updateChecker;
+    static const QString APP_VERSION;
 
 protected:
     void dragEnterEvent(QDragEnterEvent *event) override;

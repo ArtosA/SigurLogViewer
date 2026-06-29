@@ -28,6 +28,10 @@ qt_add_executable(FukingLogger_ST_win_mingw64_qt6_8
     settingsdialog.h
     settingsdialog.cpp
     styles.h
+    updatechecker.h
+    updatechecker.h
+    updatechecker.h
+    updatechecker.cpp
 )
 
 target_link_libraries(FukingLogger_ST_win_mingw64_qt6_8
@@ -48,3 +52,12 @@ qt_generate_deploy_app_script(
     NO_UNSUPPORTED_PLATFORM_ERROR
 )
 install(SCRIPT ${deploy_script})
+
+find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets Network)
+
+target_link_libraries(FukingLogger_ST_win_mingw64_qt6_8
+    PRIVATE
+        Qt::Core
+        Qt::Widgets
+        Qt::Network
+)

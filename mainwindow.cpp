@@ -11,6 +11,10 @@
 #include <QDropEvent>
 #include <QMimeData>
 #include <QApplication>
+#include <QDesktopServices>
+
+
+const QString MainWindow::APP_VERSION = "0.5.1";
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -34,7 +38,18 @@ MainWindow::MainWindow(QWidget *parent)
     resize(1200, 700);
     setAcceptDrops(true);  // ← включаем drag & drop
 
-    applySettings();    // ← применяем сохранённые настройки
+    applySettings();
+
+    // проверка обновлений при запуске (тихий режим)
+    m_updateChecker = new UpdateChecker(APP_VERSION, this);
+    connect(m_updateChecker, &UpdateChecker::updateAvailable,
+            this, &MainWindow::onUpdateAvailable);
+    connect(m_updateChecker, &UpdateChecker::noUpdateAvailable,
+            this, &MainWindow::onNoUpdate);
+    connect(m_updateChecker, &UpdateChecker::checkFailed,
+            this, &MainWindow::onUpdateCheckFailed);
+
+    m_updateChecker->checkForUpdates(true);  // true = тихий режим    // ← применяем сохранённые настройки
 
 }
 
@@ -174,12 +189,21 @@ void MainWindow::setupMenuBar()
     QMenu *viewMenu = menuBar()->addMenu("Вид");
     viewMenu->addAction(m_statsDock->toggleViewAction());
 
-    viewMenu->addSeparator();
+    // меню Справка
+    QMenu *helpMenu = menuBar()->addMenu("Справка");
 
-    QAction *settingsAction = viewMenu->addAction("Настройки...");
-    settingsAction->setShortcut(QKeySequence("Ctrl+,"));
-    connect(settingsAction, &QAction::triggered, this, &MainWindow::openSettings);
-}
+    QAction *updateAction = helpMenu->addAction("Проверить обновления...");
+    connect(updateAction, &QAction::triggered, this, &MainWindow::checkForUpdates);
+
+    QAction *aboutAction = helpMenu->addAction("О программе");
+    connect(aboutAction, &QAction::triggered, [this]() {
+        QMessageBox::about(this, "О программе",
+                           "Sigur Log Viewer v" + APP_VERSION + "\n\n"
+                                                                "Инструмент анализа лог-файлов\n"
+                                                                "для сервисов Sigur.\n\n"
+                                                                "Автор: ArtosA\n"
+                                                                "github.com/ArtosA/SigurLogViewer");
+    });}
 
 void MainWindow::openFile()
 {
@@ -873,4 +897,50 @@ void MainWindow::applySettings()
 
     bool dark = s.value("theme/dark", true).toBool();
     qApp->setStyleSheet(dark ? Styles::darkTheme() : Styles::lightTheme());
+}
+
+void MainWindow::checkForUpdates()
+{
+    m_statusLabel->setText("Проверка обновлений...");
+    m_updateChecker->checkForUpdates(false);  // false = показать результат
+}
+
+void MainWindow::onUpdateAvailable(const QString &newVersion,
+                                   const QString &downloadUrl,
+                                   const QString &releaseNotes)
+{
+    QString message =
+        "Доступна новая версия: " + newVersion + "\n\n" +
+        "Текущая версия: v" + APP_VERSION + "\n\n";
+
+    if (!releaseNotes.isEmpty())
+        message += "Что нового:\n" + releaseNotes + "\n\n";
+
+    message += "Открыть страницу загрузки?";
+
+    auto answer = QMessageBox::information(
+        this,
+        "Обновление доступно",
+        message,
+        QMessageBox::Yes | QMessageBox::No
+        );
+
+    if (answer == QMessageBox::Yes) {
+        QDesktopServices::openUrl(QUrl(downloadUrl));
+    }
+
+    m_statusLabel->setText("Доступно обновление: " + newVersion);
+}
+
+void MainWindow::onNoUpdate()
+{
+    m_statusLabel->setText("Установлена последняя версия");
+    QMessageBox::information(this, "Обновления",
+                             "Установлена последняя версия: v" + APP_VERSION);
+}
+
+void MainWindow::onUpdateCheckFailed(const QString &error)
+{
+    m_statusLabel->setText("Ошибка проверки обновлений");
+    QMessageBox::warning(this, "Ошибка", "Не удалось проверить обновления:\n" + error);
 }
